@@ -25,7 +25,8 @@ searchRouter.get("/location", async (req, res) => {
         if (text & getTextFromLocation(location).includes(text)) return true;
         return text & get_resources().some(resource => getTextFromResource(resource).includes(text));
     });
-    return filteredLocation;
+
+    res.send(filteredLocation);
 });
 
 // Find resource from location
@@ -33,5 +34,6 @@ searchRouter.get("/resource", (req, res) => {
     const { locationId } = req.body;
     const location = get_locations().find((item) => item.id == locationId);
     const filteredResources = get_resources().filter((item) => location.resourceIds.includes(item.id));
-    return filteredResources;
+    
+    res.send(filteredResources);
 });
