@@ -4,13 +4,15 @@ import { location_reservation_status_url } from "../url.js";
 
 dotenv.config({path: '../../.env'});
 
+
+//locationId is prgrId
+//searchDate format: "2023-05-19"
 async function get_location_status_json(locationId, searchDate) {
     const formData1 = new URLSearchParams();
     const formData2 = new URLSearchParams();
     formData1.append("prgrId", locationId);
     formData2.append("prgrId", locationId);
 
-    // searchDate format: "2023-05-19"
     formData1.append("searchDate", searchDate);
     formData2.append("searchDate", searchDate);
     formData1.append("searchTime", "2");
@@ -150,8 +152,3 @@ async function parse_reservation_info(reservation_status_JSONs) {
     return reservation_info_json
 
 }
-
-const jsons = await get_location_status_json("0000000514", "2023-05-19");
-const final = await parse_reservation_info(jsons);
-
-console.log(final)
