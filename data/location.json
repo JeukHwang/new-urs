@@ -1,6 +1,6 @@
 [
   {
-    "title": "[운영중(Operating)] 기계공학동 테니스장(일반)",
+    "name": "기계공학동 테니스장(일반)",
     "description": "기계공학동 테니스장(일반)",
     "resourceDescription": "기계공학동 테니스코드 C 외 4건",
     "tag": [
@@ -8,10 +8,18 @@
     ],
     "manager": "염홍관 (042-350-4813)",
     "registeredDate": "2013-01-01",
-    "id": "0000000501"
+    "isOperational": true,
+    "id": "0000000501",
+    "resourceIds": [
+      "0000001423",
+      "0000001421",
+      "0000001422",
+      "0000001424",
+      "0000001425"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 대운동장(일반)",
+    "name": "대운동장(일반)",
     "description": "대운동장(일반)",
     "resourceDescription": "대운동장 외 0건",
     "tag": [
@@ -20,10 +28,14 @@
     ],
     "manager": "염홍관 (042-350-4813)",
     "registeredDate": "2013-01-01",
-    "id": "0000000482"
+    "isOperational": true,
+    "id": "0000000482",
+    "resourceIds": [
+      "0000001401"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 서측 탁구장(일반)",
+    "name": "서측 탁구장(일반)",
     "description": "서측 탁구장(일반)",
     "resourceDescription": "서측 탁구코트 C 외 2건",
     "tag": [
@@ -31,10 +43,16 @@
     ],
     "manager": "염홍관 (042-350-4813)",
     "registeredDate": "2013-01-01",
-    "id": "0000000495"
+    "isOperational": true,
+    "id": "0000000495",
+    "resourceIds": [
+      "0000001408",
+      "0000001409",
+      "0000001410"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 카이그릴 - (바베큐 시설)",
+    "name": "카이그릴 - (바베큐 시설)",
     "description": ".",
     "resourceDescription": "10인 테이블-1 외 9건",
     "tag": [
@@ -42,10 +60,23 @@
     ],
     "manager": "진영철 (1464)",
     "registeredDate": "2013-01-01",
-    "id": "0000000529"
+    "isOperational": true,
+    "id": "0000000529",
+    "resourceIds": [
+      "0000005606",
+      "0000005607",
+      "0000005601",
+      "0000005602",
+      "0000005603",
+      "0000005604",
+      "0000005605",
+      "0000006124",
+      "0000006125",
+      "0000006126"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 풋살(일반)",
+    "name": "풋살(일반)",
     "description": "풋살(일반)",
     "resourceDescription": "풋살장 A코트 외 1건",
     "tag": [
@@ -53,10 +84,15 @@
     ],
     "manager": "염홍관 (042-350-4813)",
     "registeredDate": "2013-01-01",
-    "id": "0000000488"
+    "isOperational": true,
+    "id": "0000000488",
+    "resourceIds": [
+      "0000001403",
+      "0000001404"
+    ]
   },
   {
-    "title": "[운영중(Operating)] International Kitchen Reservation",
+    "name": "International Kitchen Reservation",
     "description": "International Kitchen Reservation (For Events &amp;amp; Non-members)",
     "resourceDescription": "International Kitchen (For Special Event) 외 1건",
     "tag": [
@@ -64,10 +100,15 @@
     ],
     "manager": "Talha (N/A)",
     "registeredDate": "2013-01-01",
-    "id": "0000000544"
+    "isOperational": true,
+    "id": "0000000544",
+    "resourceIds": [
+      "0000005658",
+      "0000005657"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 서울캠퍼스 대강당 (교수소속학회, 평일)",
+    "name": "서울캠퍼스 대강당 (교수소속학회, 평일)",
     "description": "서울캠퍼스 대강당 평일 교수소속학회 관련 예약 프로그램 입니다.",
     "resourceDescription": "대강당 외 0건",
     "tag": [
@@ -76,10 +117,14 @@
     ],
     "manager": "오복련 (02-958-3255)",
     "registeredDate": "2013-01-01",
-    "id": "0000000422"
+    "isOperational": true,
+    "id": "0000000422",
+    "resourceIds": [
+      "0000000551"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 서울캠퍼스 소회의실 (교수소속학회, 주말/공휴일)",
+    "name": "서울캠퍼스 소회의실 (교수소속학회, 주말/공휴일)",
     "description": "서울캠퍼스 소회의실 주말,공휴일 교수소속학회 관련 예약 프로그램 입니다.",
     "resourceDescription": "소회의실 외 0건",
     "tag": [
@@ -88,10 +133,14 @@
     ],
     "manager": "오복련 (02-958-3255)",
     "registeredDate": "2013-01-01",
-    "id": "0000000433"
+    "isOperational": true,
+    "id": "0000000433",
+    "resourceIds": [
+      "0000000553"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 서울캠퍼스 소회의실 (교수소속학회, 평일)",
+    "name": "서울캠퍼스 소회의실 (교수소속학회, 평일)",
     "description": "서울캠퍼스 소회의실 평일 교수소속학회 관련 예약 프로그램 입니다.",
     "resourceDescription": "소회의실 외 0건",
     "tag": [
@@ -100,10 +149,14 @@
     ],
     "manager": "오복련 (02-958-3255)",
     "registeredDate": "2013-01-01",
-    "id": "0000000432"
+    "isOperational": true,
+    "id": "0000000432",
+    "resourceIds": [
+      "0000000553"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 학술문화관(문화관) 미디어감상실",
+    "name": "학술문화관(문화관) 미디어감상실",
     "description": "학술문화원(문화관) 미디어감상실",
     "resourceDescription": "미디어감상실A 외 0건",
     "tag": [
@@ -111,10 +164,11 @@
     ],
     "manager": "조준형 (042-350-0342)",
     "registeredDate": "2018-03-01",
+    "isOperational": true,
     "id": "0000000000"
   },
   {
-    "title": "[운영중(Operating)] 산업 및 시스템 공학과 Education 3.0 교육실 (일반)",
+    "name": "산업 및 시스템 공학과 Education 3.0 교육실 (일반)",
     "description": "산업 및 시스템 공학과 Education 3.0 교육실 (일반)\r\n\r\n1. 학기중 정규교과 강의시간에는 예약이 불가합니다. \r\n\r\n2. 18시 이후 보강을 위한 예약 후 사전에 출입문개폐를 위해 방문(2503호)또는 전화(3194), 메일 sgkim@kaist.ac.kr로 반드시 연락바랍니다. \r\n\r\n3. 학과 행사외 개인 및 팀과제 등을 위한 학생 개인예약은 불가합니다.",
     "resourceDescription": "Education 3.0 교육실 외 0건",
     "tag": [
@@ -122,10 +176,14 @@
     ],
     "manager": "김성겸 (042-350-3194)",
     "registeredDate": "2013-01-01",
-    "id": "0000000557"
+    "isOperational": true,
+    "id": "0000000557",
+    "resourceIds": [
+      "0000005673"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 의과학연구센터(E18-3)  304호",
+    "name": "의과학연구센터(E18-3)  304호",
     "description": "E18-3 세미나실 304호 예약",
     "resourceDescription": "의과학연구센터(E18-3)  304호 외 0건",
     "tag": [
@@ -136,10 +194,14 @@
     ],
     "manager": "김아랑 (042-350-4230)",
     "registeredDate": "2021-07-06",
-    "id": "0000000664"
+    "isOperational": true,
+    "id": "0000000664",
+    "resourceIds": [
+      "0000006117"
+    ]
   },
   {
-    "title": "[준비중(Preparing)] 학술문화관(문화관) 3층 해커톤랩(A)",
+    "name": "학술문화관(문화관) 3층 해커톤랩(A)",
     "description": "학술문화관(문화관) 3층 해커톤랩(A)",
     "resourceDescription": "해커톤랩(A) 외 0건",
     "tag": [
@@ -148,10 +210,11 @@
     ],
     "manager": "조준형 (042-350-0342)",
     "registeredDate": "2018-04-09",
+    "isOperational": false,
     "id": "0000000604"
   },
   {
-    "title": "[준비중(Preparing)] 학술문화관(문화관) 3층 해커톤랩(B)",
+    "name": "학술문화관(문화관) 3층 해커톤랩(B)",
     "description": "학술문화관(문화관) 3층 해커톤랩(B)",
     "resourceDescription": "해커톤랩(B) 외 0건",
     "tag": [
@@ -160,10 +223,11 @@
     ],
     "manager": "조준형 (042-350-0342)",
     "registeredDate": "2018-04-09",
+    "isOperational": false,
     "id": "0000000605"
   },
   {
-    "title": "[준비중(Preparing)] 학술문화관(문화관) 3층 해커톤랩(D)",
+    "name": "학술문화관(문화관) 3층 해커톤랩(D)",
     "description": "학술문화관(문화관) 3층 해커톤랩(D)",
     "resourceDescription": "해커톤랩(D) 외 0건",
     "tag": [
@@ -172,10 +236,11 @@
     ],
     "manager": "조준형 (042-350-0342)",
     "registeredDate": "2018-04-09",
+    "isOperational": false,
     "id": "0000000607"
   },
   {
-    "title": "[운영중(Operating)] International Center 다목적실 ( 일반 )",
+    "name": "International Center 다목적실 ( 일반 )",
     "description": "International Center 다목적실 일반 사용 관련 예약 프로그램 입니다.",
     "resourceDescription": "다목적홀 외 0건",
     "tag": [
@@ -183,19 +248,24 @@
     ],
     "manager": "배혜림 (042-350-2443)",
     "registeredDate": "2013-01-01",
-    "id": "0000000463"
+    "isOperational": true,
+    "id": "0000000463",
+    "resourceIds": [
+      "0000000701"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 대운동장(월별추첨)",
+    "name": "대운동장(월별추첨)",
     "description": "대운동장 (월별추첨)",
     "resourceDescription": "대운동장 1 외 299건",
     "tag": [],
     "manager": "염홍관 (042-350-4813)",
     "registeredDate": "2013-01-01",
+    "isOperational": true,
     "id": "0000000516"
   },
   {
-    "title": "[준비중(Preparing)] 미래홀 (축제)",
+    "name": "미래홀 (축제)",
     "description": "본원 미래홀 축제 관련 예약 프로그램 입니다.",
     "resourceDescription": "미래홀 외 0건",
     "tag": [
@@ -203,10 +273,14 @@
     ],
     "manager": "김인현 (042-350-2164)",
     "registeredDate": "2013-01-01",
-    "id": "0000000478"
+    "isOperational": false,
+    "id": "0000000478",
+    "resourceIds": [
+      "0000000102"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 서울캠퍼스 국제회의실 (내부구성원)",
+    "name": "서울캠퍼스 국제회의실 (내부구성원)",
     "description": "서울캠퍼스 국제회의실 원내 학술행사 및 학회, 워크샾, 세미나, 회의등 관련 예약 프로그램 입니다.",
     "resourceDescription": "국제회의실 외 0건",
     "tag": [
@@ -215,10 +289,14 @@
     ],
     "manager": "오복련 (02-958-3255)",
     "registeredDate": "2013-01-01",
-    "id": "0000000426"
+    "isOperational": true,
+    "id": "0000000426",
+    "resourceIds": [
+      "0000000552"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 서울캠퍼스 대강당 (교수소속학회, 주말/공휴일)",
+    "name": "서울캠퍼스 대강당 (교수소속학회, 주말/공휴일)",
     "description": "서울캠퍼스 대강당 주말,공휴일 교수소속학회 관련 예약 프로그램 입니다.",
     "resourceDescription": "대강당 외 0건",
     "tag": [
@@ -227,10 +305,14 @@
     ],
     "manager": "오복련 (02-958-3255)",
     "registeredDate": "2013-01-01",
-    "id": "0000000423"
+    "isOperational": true,
+    "id": "0000000423",
+    "resourceIds": [
+      "0000000551"
+    ]
   },
   {
-    "title": "[운영중(Operating)] IT융합빌딩(N1) Edu4.0 교실 (총 24석)",
+    "name": "IT융합빌딩(N1) Edu4.0 교실 (총 24석)",
     "description": "Education 4.0 교실 (총 24석) - Edu4.0Q 프로그램 전용",
     "resourceDescription": "IT 융합빌딩 103호 외 0건",
     "tag": [
@@ -238,10 +320,14 @@
     ],
     "manager": "최태진 (042-350-6072)",
     "registeredDate": "2013-01-01",
-    "id": "0000000530"
+    "isOperational": true,
+    "id": "0000000530",
+    "resourceIds": [
+      "0000005651"
+    ]
   },
   {
-    "title": "[준비중(Preparing)] 경영대학 공동 교수 세미나실",
+    "name": "경영대학 공동 교수 세미나실",
     "description": "경영대학 공동 교수세미나실",
     "resourceDescription": "경영대학 공동 교수세미나실 외 0건",
     "tag": [
@@ -251,10 +337,14 @@
     ],
     "manager": "주선희 (02-958-3602)",
     "registeredDate": "2013-07-22",
-    "id": "0000000420"
+    "isOperational": false,
+    "id": "0000000420",
+    "resourceIds": [
+      "0000006184"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 서울캠퍼스 국제회의실 (교수소속학회, 평일)",
+    "name": "서울캠퍼스 국제회의실 (교수소속학회, 평일)",
     "description": "서울캠퍼스 국제회의실 평일 교수소속학회 관련 예약 프로그램 입니다.",
     "resourceDescription": "국제회의실 외 0건",
     "tag": [
@@ -263,10 +353,14 @@
     ],
     "manager": "오복련 (02-958-3255)",
     "registeredDate": "2013-01-01",
-    "id": "0000000427"
+    "isOperational": true,
+    "id": "0000000427",
+    "resourceIds": [
+      "0000000552"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 서측 실내체육관(일반)",
+    "name": "서측 실내체육관(일반)",
     "description": "서측 실내체육관(일반)",
     "resourceDescription": "서측 실내체육관 외 0건",
     "tag": [
@@ -274,10 +368,14 @@
     ],
     "manager": "염홍관 (042-350-4813)",
     "registeredDate": "2013-01-01",
-    "id": "0000000492"
+    "isOperational": true,
+    "id": "0000000492",
+    "resourceIds": [
+      "0000001405"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 전자현수막(학생)",
+    "name": "전자현수막(학생)",
     "description": "현수막 게시 예약프로그램",
     "resourceDescription": "현수막(학생) 외 0건",
     "tag": [
@@ -285,10 +383,14 @@
     ],
     "manager": "강하연 (042-350-2162)",
     "registeredDate": "2017-04-24",
-    "id": "0000000578"
+    "isOperational": true,
+    "id": "0000000578",
+    "resourceIds": [
+      "0000005936"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 대회의실2 (F640호, 20석 최대 30인)",
+    "name": "대회의실2 (F640호, 20석 최대 30인)",
     "description": "대전 문지캠퍼스의 대회의실2(Conference Room) 예약 프로그램입니다.",
     "resourceDescription": "대회의실 2 (F640호) 외 0건",
     "tag": [
@@ -296,10 +398,14 @@
     ],
     "manager": "이은희 (6713)",
     "registeredDate": "2019-11-01",
-    "id": "0000000620"
+    "isOperational": true,
+    "id": "0000000620",
+    "resourceIds": [
+      "0000006042"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 서측 라켓볼장(일반)",
+    "name": "서측 라켓볼장(일반)",
     "description": "서측 라켓볼장(일반)",
     "resourceDescription": "라켓볼장 외 0건",
     "tag": [
@@ -307,10 +413,14 @@
     ],
     "manager": "염홍관 (042-350-4813)",
     "registeredDate": "2013-01-01",
-    "id": "0000000497"
+    "isOperational": true,
+    "id": "0000000497",
+    "resourceIds": [
+      "0000001411"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 음악회 관람 (학생)",
+    "name": "음악회 관람 (학생)",
     "description": "대전시립교향악단/대전시립연정국악원 음악회 예약서비스(학생용)",
     "resourceDescription": "음악회 좌석 1 외 107건",
     "tag": [
@@ -318,10 +428,11 @@
     ],
     "manager": "노영완 (042-350-2315)",
     "registeredDate": "2013-01-01",
+    "isOperational": true,
     "id": "0000000129"
   },
   {
-    "title": "[운영중(Operating)] 인쇄현수막(학생)",
+    "name": "인쇄현수막(학생)",
     "description": "인쇄현수막 게시 신청 프로그램",
     "resourceDescription": "현수막(학생) 외 9건",
     "tag": [
@@ -329,10 +440,23 @@
     ],
     "manager": "강하연 (042-350-2162)",
     "registeredDate": "2018-02-05",
-    "id": "0000000590"
+    "isOperational": true,
+    "id": "0000000590",
+    "resourceIds": [
+      "0000005936",
+      "0000005937",
+      "0000005938",
+      "0000005939",
+      "0000005940",
+      "0000005941",
+      "0000005942",
+      "0000005943",
+      "0000005944",
+      "0000005945"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 창업 법률상담 서비스",
+    "name": "창업 법률상담 서비스",
     "description": "창업 법률상담 서비스",
     "resourceDescription": "창업 법률 상담 외 0건",
     "tag": [
@@ -340,10 +464,14 @@
     ],
     "manager": "김두희 (042-350-6494)",
     "registeredDate": "2022-03-01",
-    "id": "0000000668"
+    "isOperational": true,
+    "id": "0000000668",
+    "resourceIds": [
+      "0000006123"
+    ]
   },
   {
-    "title": "[운영중(Operating)] Education 4.0 셀프 스튜디오",
+    "name": "Education 4.0 셀프 스튜디오",
     "description": "본 시설은 스스로 자유롭게 비치되어 있는 시설을 이용하여 콘텐츠를 제작하는 [셀프스튜디오] 입니다.\r\n\r\n[셀프스튜디오]는 KAIST 신분증(교수에 한함)을 이용해 자유롭게 출입이 가능합니다. 셀프스튜디오 이용 시 혼선을 막기 위해 예약자에게 우선순위를 두고 있으므로, 예약 후 사용하시기를 권장드립니다.",
     "resourceDescription": "105호 외 0건",
     "tag": [
@@ -351,10 +479,14 @@
     ],
     "manager": "최태진 (042-350-6072)",
     "registeredDate": "2013-01-01",
-    "id": "0000000542"
+    "isOperational": true,
+    "id": "0000000542",
+    "resourceIds": [
+      "0000005653"
+    ]
   },
   {
-    "title": "[운영중(Operating)] International Center 강의실 ( 일반 )",
+    "name": "International Center 강의실 ( 일반 )",
     "description": "International Center 강의실 일반 사용 관련 예약 프로그램 입니다.",
     "resourceDescription": "204호,205호 외 0건",
     "tag": [
@@ -362,10 +494,14 @@
     ],
     "manager": "배혜림 (042-350-2443)",
     "registeredDate": "2013-01-01",
-    "id": "0000000465"
+    "isOperational": true,
+    "id": "0000000465",
+    "resourceIds": [
+      "0000000704"
+    ]
   },
   {
-    "title": "[준비중(Preparing)] Startup KAIST Studio",
+    "name": "Startup KAIST Studio",
     "description": "Startup KAIST Studio",
     "resourceDescription": "Startup KAIST Conference Room 외 3건",
     "tag": [
@@ -374,10 +510,17 @@
     ],
     "manager": "이민규 (042-350-4735)",
     "registeredDate": "2014-06-09",
-    "id": "0000000547"
+    "isOperational": false,
+    "id": "0000000547",
+    "resourceIds": [
+      "0000005661",
+      "0000005663",
+      "0000005664",
+      "0000005662"
+    ]
   },
   {
-    "title": "[준비중(Preparing)] 학술문화관(문화관)  5층 존해너홀",
+    "name": "학술문화관(문화관)  5층 존해너홀",
     "description": "학술문화관(문화관) 스카이라운지",
     "resourceDescription": "존해너 홀 외 0건",
     "tag": [
@@ -385,10 +528,11 @@
     ],
     "manager": "조준형 (042-350-0342)",
     "registeredDate": "2018-04-09",
+    "isOperational": false,
     "id": "0000000603"
   },
   {
-    "title": "[운영중(Operating)] 학술문화관(문화관) 미디어제작실",
+    "name": "학술문화관(문화관) 미디어제작실",
     "description": "학술문화관(문화관) 미디어제작실",
     "resourceDescription": "미디어제작실 외 0건",
     "tag": [
@@ -396,10 +540,11 @@
     ],
     "manager": "임지수 (042-350-0341)",
     "registeredDate": "2018-03-01",
+    "isOperational": true,
     "id": "0000000000"
   },
   {
-    "title": "[운영중(Operating)] 대회의실1 (A806호, 20석, 최대 30인)",
+    "name": "대회의실1 (A806호, 20석, 최대 30인)",
     "description": "대전 문지캠퍼스의 대회의실1(Conference Room) 예약 프로그램 입니다.",
     "resourceDescription": "대회의실1 (A806호) 외 0건",
     "tag": [
@@ -407,10 +552,14 @@
     ],
     "manager": "이은희 (6713)",
     "registeredDate": "2013-01-01",
-    "id": "0000000301"
+    "isOperational": true,
+    "id": "0000000301",
+    "resourceIds": [
+      "0000000401"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 성남-KAIST 차세대 ICT 연구센터 회의실",
+    "name": "성남-KAIST 차세대 ICT 연구센터 회의실",
     "description": "성남 회의실 예약 프로그램",
     "resourceDescription": "성남 회의실 외 0건",
     "tag": [
@@ -422,10 +571,14 @@
     ],
     "manager": "양미진 (031-786-1084)",
     "registeredDate": "2020-02-03",
-    "id": "0000000634"
+    "isOperational": true,
+    "id": "0000000634",
+    "resourceIds": [
+      "0000006058"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 실내체육관",
+    "name": "실내체육관",
     "description": "대전 문지캠퍼스의 실내체육관  예약 프로그램 입니다.",
     "resourceDescription": "실내체육관 외 0건",
     "tag": [
@@ -433,10 +586,14 @@
     ],
     "manager": "이은희 (6713)",
     "registeredDate": "2013-01-01",
-    "id": "0000000307"
+    "isOperational": true,
+    "id": "0000000307",
+    "resourceIds": [
+      "0000000407"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 의과학연구센터(E7)  2111호",
+    "name": "의과학연구센터(E7)  2111호",
     "description": "의과학연구센터(E7) 2층 2111호 예약",
     "resourceDescription": "의과학연구센터( E7) 2111호 외 0건",
     "tag": [
@@ -447,19 +604,29 @@
     ],
     "manager": "김아랑 (042-350-4230)",
     "registeredDate": "2021-06-28",
-    "id": "0000000661"
+    "isOperational": true,
+    "id": "0000000661",
+    "resourceIds": [
+      "0000006114"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 일반사택",
+    "name": "일반사택",
     "description": "일반사택 예약프로그램 입니다.",
     "resourceDescription": "101호 외 2건",
     "tag": [],
     "manager": "김재욱 (042-350-2073)",
     "registeredDate": "2013-01-01",
-    "id": "0000000128"
+    "isOperational": true,
+    "id": "0000000128",
+    "resourceIds": [
+      "0000000161",
+      "0000000162",
+      "0000000163"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 노천극장 - (야외결혼식, 행사 등)",
+    "name": "노천극장 - (야외결혼식, 행사 등)",
     "description": "본원 노천극장에 대한 예약프로그램 입니다.",
     "resourceDescription": "노천극장 외 0건",
     "tag": [
@@ -467,10 +634,14 @@
     ],
     "manager": "진영철 (1464)",
     "registeredDate": "2013-01-01",
-    "id": "0000000318"
+    "isOperational": true,
+    "id": "0000000318",
+    "resourceIds": [
+      "0000000323"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 드림홀 결혼식 (재학생)",
+    "name": "드림홀 결혼식 (재학생)",
     "description": "본원 드림홀에 대한 재학생 결혼식 관련 예약 프로그램 입니다.",
     "resourceDescription": "드림홀 외 0건",
     "tag": [
@@ -478,19 +649,24 @@
     ],
     "manager": "김태형 (042-350-2166)",
     "registeredDate": "2013-01-01",
-    "id": "0000000477"
+    "isOperational": true,
+    "id": "0000000477",
+    "resourceIds": [
+      "0000000101"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 북측운동장(월별추첨)",
+    "name": "북측운동장(월별추첨)",
     "description": "북측운동장 (월별추첨)",
     "resourceDescription": "북측운동장 1 외 299건",
     "tag": [],
     "manager": "염홍관 (042-350-4813)",
     "registeredDate": "2013-01-01",
+    "isOperational": true,
     "id": "0000000518"
   },
   {
-    "title": "[운영중(Operating)] 테니스장(Tennis Court)",
+    "name": "테니스장(Tennis Court)",
     "description": "대전 문지캠퍼스의 테니스장(Tennis Court)  예약 프로그램 입니다.",
     "resourceDescription": "테니스장 1코트 외 4건",
     "tag": [
@@ -498,10 +674,18 @@
     ],
     "manager": "이은희 (6713)",
     "registeredDate": "2013-01-01",
-    "id": "0000000308"
+    "isOperational": true,
+    "id": "0000000308",
+    "resourceIds": [
+      "0000000408",
+      "0000000409",
+      "0000000410",
+      "0000000411",
+      "0000000412"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 학술문화관(문화관) 미디어편집실",
+    "name": "학술문화관(문화관) 미디어편집실",
     "description": "학술문화관(문화관) 미디어편집실",
     "resourceDescription": "미디어편집실 외 0건",
     "tag": [
@@ -509,10 +693,11 @@
     ],
     "manager": "임지수 (042-350-0341)",
     "registeredDate": "2018-03-01",
+    "isOperational": true,
     "id": "0000000000"
   },
   {
-    "title": "[운영중(Operating)] 골프(신규회원추첨)",
+    "name": "골프(신규회원추첨)",
     "description": "골프신규회원 추첨신청을 위한 프로그램 입니다.",
     "resourceDescription": "골프 1 외 299건",
     "tag": [
@@ -520,10 +705,11 @@
     ],
     "manager": "염홍관 (042-350-4813)",
     "registeredDate": "2013-01-01",
+    "isOperational": true,
     "id": "0000000144"
   },
   {
-    "title": "[운영중(Operating)] 서울캠퍼스 국제회의실 (교수소속학회, 주말/공휴일)",
+    "name": "서울캠퍼스 국제회의실 (교수소속학회, 주말/공휴일)",
     "description": "서울캠퍼스 국제회의실 주말,공휴일 교수소속학회 관련 예약 프로그램 입니다.",
     "resourceDescription": "국제회의실 외 0건",
     "tag": [
@@ -532,10 +718,14 @@
     ],
     "manager": "오복련 (02-958-3255)",
     "registeredDate": "2013-01-01",
-    "id": "0000000428"
+    "isOperational": true,
+    "id": "0000000428",
+    "resourceIds": [
+      "0000000552"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 스포츠컴플렉스 주경기장 (일반)",
+    "name": "스포츠컴플렉스 주경기장 (일반)",
     "description": "스포츠컴플렉스 주경기장 (일반)",
     "resourceDescription": "스포츠컴플렉스 주경기장 외 0건",
     "tag": [
@@ -544,10 +734,14 @@
     ],
     "manager": "염홍관 (042-350-4813)",
     "registeredDate": "2013-01-01",
-    "id": "0000000514"
+    "isOperational": true,
+    "id": "0000000514",
+    "resourceIds": [
+      "0000001821"
+    ]
   },
   {
-    "title": "[준비중(Preparing)] 학술문화관(문화관) 양승택오디토리움",
+    "name": "학술문화관(문화관) 양승택오디토리움",
     "description": "학술문화관(문화관) 양승택오디토리움",
     "resourceDescription": "양승택 오디토리움 외 0건",
     "tag": [
@@ -557,10 +751,11 @@
     ],
     "manager": "조준형 (042-350-0342)",
     "registeredDate": "2018-04-09",
+    "isOperational": false,
     "id": "0000000601"
   },
   {
-    "title": "[운영중(Operating)] 항공우주공학과 Seminar Room Reservation",
+    "name": "항공우주공학과 Seminar Room Reservation",
     "description": "항공우주공학과 예약시스템\r\n설명 : 기계공학동 항공우주공학과의 강의실과  회의실에 대한 예약프로그램 입니다.  \r\n자원 : 강의실 외 5건      \r\n용도 : 강의실 및 회의실 예약       \r\n관리자 : 김윤(042-350-3705)  \r\n등록일 :",
     "resourceDescription": "1316호(강의실) 외 7건",
     "tag": [
@@ -570,10 +765,21 @@
     ],
     "manager": "이창훈 (042-350-3702)",
     "registeredDate": "2017-07-21",
-    "id": "0000000580"
+    "isOperational": true,
+    "id": "0000000580",
+    "resourceIds": [
+      "0000005950",
+      "0000005949",
+      "0000005946",
+      "0000005948",
+      "0000006013",
+      "0000006127",
+      "0000006108",
+      "0000006170"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 강의동 로비",
+    "name": "강의동 로비",
     "description": "대전 문지캠퍼스의 강의동 로비(Lecture Wing Lobby)  예약 프로그램 입니다.",
     "resourceDescription": "강의동 로비(Lecture Wing Lobby) 외 0건",
     "tag": [
@@ -581,10 +787,14 @@
     ],
     "manager": "이은희 (6713)",
     "registeredDate": "2013-01-01",
-    "id": "0000000304"
+    "isOperational": true,
+    "id": "0000000304",
+    "resourceIds": [
+      "0000000404"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 대전-서울 셔틀버스(학생)",
+    "name": "대전-서울 셔틀버스(학생)",
     "description": "매주 금요일 대전-서울 셔틀버스에 대한 학생 예약 프로그램 입니다.",
     "resourceDescription": "Seat 01 외 39건",
     "tag": [
@@ -592,10 +802,11 @@
     ],
     "manager": "유화정 (042-350-2314)",
     "registeredDate": "2013-01-01",
+    "isOperational": true,
     "id": "0000000131"
   },
   {
-    "title": "[운영중(Operating)] 슈펙스홀",
+    "name": "슈펙스홀",
     "description": "대전 문지캠퍼스의 슈펙스홀(Supex Hall)  예약 프로그램 입니다.",
     "resourceDescription": "슈펙스홀(Supex Hall) 외 0건",
     "tag": [
@@ -603,19 +814,24 @@
     ],
     "manager": "이은희 (6713)",
     "registeredDate": "2013-01-01",
-    "id": "0000000302"
+    "isOperational": true,
+    "id": "0000000302",
+    "resourceIds": [
+      "0000000402"
+    ]
   },
   {
-    "title": "[준비중(Preparing)] 잔디밭",
+    "name": "잔디밭",
     "description": "본원 대장당 잔디밭에 대한 예약 프로그램 입니다.",
     "resourceDescription": "잔디밭 섹션 1 외 2건",
     "tag": [],
     "manager": "진영철 (1464)",
     "registeredDate": "2013-01-01",
+    "isOperational": false,
     "id": "0000000316"
   },
   {
-    "title": "[준비중(Preparing)] 학술문화관(문화관) 3층 해커톤랩(C)",
+    "name": "학술문화관(문화관) 3층 해커톤랩(C)",
     "description": "학술문화관(문화관) 3층 해커톤랩(C)",
     "resourceDescription": "해커톤랩(C) 외 0건",
     "tag": [
@@ -624,10 +840,11 @@
     ],
     "manager": "조준형 (042-350-0342)",
     "registeredDate": "2018-04-09",
+    "isOperational": false,
     "id": "0000000606"
   },
   {
-    "title": "[운영중(Operating)] 교양분관 그룹스터디룸",
+    "name": "교양분관 그룹스터디룸",
     "description": "교양분관 그룹스터디룸 예약",
     "resourceDescription": "세미나실 1 외 11건",
     "tag": [
@@ -635,10 +852,11 @@
     ],
     "manager": "김보경 (2239)",
     "registeredDate": "2018-01-02",
+    "isOperational": true,
     "id": "0000000000"
   },
   {
-    "title": "[운영중(Operating)] 대강당(E15) - (결혼식 식사장소, 행사 등)",
+    "name": "대강당(E15) - (결혼식 식사장소, 행사 등)",
     "description": ".",
     "resourceDescription": "강당(무대) 외 1건",
     "tag": [
@@ -647,10 +865,15 @@
     ],
     "manager": "진영철 (1464)",
     "registeredDate": "2013-01-01",
-    "id": "0000000311"
+    "isOperational": true,
+    "id": "0000000311",
+    "resourceIds": [
+      "0000000321",
+      "0000006130"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 잔디구장(Lawn Ground)",
+    "name": "잔디구장(Lawn Ground)",
     "description": "대전 문지캠퍼스의 잔디구장(Lawn Ground)  예약 프로그램 입니다.",
     "resourceDescription": "잔디구장(Lawn Ground) 외 0건",
     "tag": [
@@ -658,10 +881,14 @@
     ],
     "manager": "이은희 (6713)",
     "registeredDate": "2013-01-01",
-    "id": "0000000306"
+    "isOperational": true,
+    "id": "0000000306",
+    "resourceIds": [
+      "0000000406"
+    ]
   },
   {
-    "title": "[준비중(Preparing)] 창의관 (행사)",
+    "name": "창의관 (행사)",
     "description": "창의관 강의실 (행사) 예약 프로그램 입니다.",
     "resourceDescription": "101호 외 34건",
     "tag": [
@@ -671,10 +898,48 @@
     ],
     "manager": "최진희 (042-350-2367)",
     "registeredDate": "2013-01-01",
-    "id": "0000000406"
+    "isOperational": false,
+    "id": "0000000406",
+    "resourceIds": [
+      "0000000501",
+      "0000000502",
+      "0000000503",
+      "0000000505",
+      "0000000506",
+      "0000000507",
+      "0000000508",
+      "0000000509",
+      "0000000510",
+      "0000000511",
+      "0000000512",
+      "0000000513",
+      "0000000514",
+      "0000000515",
+      "0000000516",
+      "0000000517",
+      "0000000518",
+      "0000000519",
+      "0000000520",
+      "0000000521",
+      "0000000522",
+      "0000000523",
+      "0000000524",
+      "0000000525",
+      "0000000526",
+      "0000000527",
+      "0000000529",
+      "0000000530",
+      "0000000531",
+      "0000000532",
+      "0000000533",
+      "0000000534",
+      "0000000535",
+      "0000000536",
+      "0000000504"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 학술문화관(도서관) 그룹스터디룸",
+    "name": "학술문화관(도서관) 그룹스터디룸",
     "description": "학술문화관(도서관) 그룹스터디룸",
     "resourceDescription": "그룹스터디룸 2A 외 3건",
     "tag": [
@@ -683,10 +948,11 @@
     ],
     "manager": "김보경 (042-350-2223)",
     "registeredDate": "2018-02-28",
+    "isOperational": true,
     "id": "0000000000"
   },
   {
-    "title": "[운영중(Operating)] ME Cleanroom",
+    "name": "ME Cleanroom",
     "description": "기계공학과 클린룸",
     "resourceDescription": "3D profile measurement 외 22건",
     "tag": [
@@ -694,10 +960,36 @@
     ],
     "manager": "임수지 (042-350-3203)",
     "registeredDate": "2018-06-11",
-    "id": "0000000608"
+    "isOperational": true,
+    "id": "0000000608",
+    "resourceIds": [
+      "0000005984",
+      "0000005994",
+      "0000005993",
+      "0000005996",
+      "0000005995",
+      "0000005989",
+      "0000005990",
+      "0000005991",
+      "0000006004",
+      "0000005986",
+      "0000006000",
+      "0000005998",
+      "0000006001",
+      "0000005985",
+      "0000005988",
+      "0000006003",
+      "0000006006",
+      "0000006002",
+      "0000005997",
+      "0000005987",
+      "0000005999",
+      "0000005992",
+      "0000006005"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 문지도서관 그룹스터디룸",
+    "name": "문지도서관 그룹스터디룸",
     "description": "문지도서관 그룹스터디룸",
     "resourceDescription": "3층 그룹스터디룸 외 0건",
     "tag": [
@@ -705,10 +997,11 @@
     ],
     "manager": "이정숙 (042-350-6082)",
     "registeredDate": "2019-01-02",
+    "isOperational": true,
     "id": "0000000000"
   },
   {
-    "title": "[운영중(Operating)] 북측운동장(일반)",
+    "name": "북측운동장(일반)",
     "description": "북측운동장(일반)",
     "resourceDescription": "북측운동장 외 0건",
     "tag": [
@@ -717,10 +1010,14 @@
     ],
     "manager": "염홍관 (042-350-4813)",
     "registeredDate": "2013-01-01",
-    "id": "0000000485"
+    "isOperational": true,
+    "id": "0000000485",
+    "resourceIds": [
+      "0000001402"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 서울캠퍼스 현수막",
+    "name": "서울캠퍼스 현수막",
     "description": "서울캠퍼스 현수막 게시 관련 예약 프로그램 입니다.",
     "resourceDescription": "1호관 정문현관(상) 외 8건",
     "tag": [
@@ -729,19 +1026,32 @@
     ],
     "manager": "오복련 (02-958-3255)",
     "registeredDate": "2013-01-01",
-    "id": "0000000436"
+    "isOperational": true,
+    "id": "0000000436",
+    "resourceIds": [
+      "0000000556",
+      "0000000557",
+      "0000000561",
+      "0000000560",
+      "0000000559",
+      "0000000558",
+      "0000000562",
+      "0000000555",
+      "0000000554"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 풋살(월별추첨)",
+    "name": "풋살(월별추첨)",
     "description": "풋살(월별추첨)",
     "resourceDescription": "풋살장 1 외 499건",
     "tag": [],
     "manager": "염홍관 (042-350-4813)",
     "registeredDate": "2013-01-01",
+    "isOperational": true,
     "id": "0000000489"
   },
   {
-    "title": "[운영중(Operating)] 강의실",
+    "name": "강의실",
     "description": "대전 문지캠퍼스의 강의실(Lecture Room)  예약 프로그램 입니다.",
     "resourceDescription": "102호 강의실 외 9건",
     "tag": [
@@ -750,10 +1060,23 @@
     ],
     "manager": "이은희 (6713)",
     "registeredDate": "2013-01-01",
-    "id": "0000000536"
+    "isOperational": true,
+    "id": "0000000536",
+    "resourceIds": [
+      "0000000414",
+      "0000000415",
+      "0000000416",
+      "0000000417",
+      "0000000418",
+      "0000000419",
+      "0000000420",
+      "0000000421",
+      "0000005983",
+      "0000000427"
+    ]
   },
   {
-    "title": "[준비중(Preparing)] 미래홀",
+    "name": "미래홀",
     "description": "미래홀 행사 관련 예약 프로그램 입니다.",
     "resourceDescription": "미래홀 외 0건",
     "tag": [
@@ -761,10 +1084,14 @@
     ],
     "manager": "김인현 (042-350-2164)",
     "registeredDate": "2013-01-01",
-    "id": "0000000123"
+    "isOperational": false,
+    "id": "0000000123",
+    "resourceIds": [
+      "0000000102"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 서울캠퍼스 소회의실 (내부구성원)",
+    "name": "서울캠퍼스 소회의실 (내부구성원)",
     "description": "서울캠퍼스 소회의실 원내 회의 및 세미나 관련 예약 프로그램 입니다.",
     "resourceDescription": "소회의실 외 0건",
     "tag": [
@@ -773,10 +1100,14 @@
     ],
     "manager": "오복련 (02-958-3255)",
     "registeredDate": "2013-01-01",
-    "id": "0000000431"
+    "isOperational": true,
+    "id": "0000000431",
+    "resourceIds": [
+      "0000000553"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 의과학연구센터(E7)  2113호",
+    "name": "의과학연구센터(E7)  2113호",
     "description": "의과학연구센터(E7) 2층 2113호 예약",
     "resourceDescription": "의과학연구센터( E7) 2113호 외 0건",
     "tag": [
@@ -787,10 +1118,14 @@
     ],
     "manager": "김아랑 (042-350-8153)",
     "registeredDate": "2021-06-28",
-    "id": "0000000662"
+    "isOperational": true,
+    "id": "0000000662",
+    "resourceIds": [
+      "0000006115"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 학술문화관(문화관)  5층 정근모콘퍼런스홀",
+    "name": "학술문화관(문화관)  5층 정근모콘퍼런스홀",
     "description": "학술문화관(문화관) 정근모콘퍼런스홀(서비스 준비중)",
     "resourceDescription": "정근모 콘퍼런스홀 외 0건",
     "tag": [
@@ -799,10 +1134,11 @@
     ],
     "manager": "조준형 (042-350-0342)",
     "registeredDate": "2018-04-09",
+    "isOperational": true,
     "id": "0000000602"
   },
   {
-    "title": "[운영중(Operating)] Education 4.0 스튜디오",
+    "name": "Education 4.0 스튜디오",
     "description": "본 시설은 Education 4.0 수업영상 촬영을 위한 콘텐츠를 제작하는 [스튜디오] 입니다. \r\n\r\n[스튜디오]는 예약/관리자의 승인 후에 이용이 가능합니다.",
     "resourceDescription": "104호 외 1건",
     "tag": [
@@ -810,10 +1146,15 @@
     ],
     "manager": "최태진 (042-350-6072)",
     "registeredDate": "2013-01-01",
-    "id": "0000000532"
+    "isOperational": true,
+    "id": "0000000532",
+    "resourceIds": [
+      "0000005652",
+      "0000005887"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 새내기 시청각실",
+    "name": "새내기 시청각실",
     "description": "새내기 시청각실 예약프로그램",
     "resourceDescription": "새내기시청각실(사랑관) 외 2건",
     "tag": [
@@ -821,10 +1162,16 @@
     ],
     "manager": "임정빈 ()",
     "registeredDate": "2017-02-08",
-    "id": "0000000575"
+    "isOperational": true,
+    "id": "0000000575",
+    "resourceIds": [
+      "0000005920",
+      "0000005921",
+      "0000005922"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 서울캠퍼스 대강당 (내부구성원)",
+    "name": "서울캠퍼스 대강당 (내부구성원)",
     "description": "서울캠퍼스 대강당 원내주관 행사 관련 예약 프로그램 입니다.",
     "resourceDescription": "대강당 외 0건",
     "tag": [
@@ -833,10 +1180,14 @@
     ],
     "manager": "오복련 (02-958-3255)",
     "registeredDate": "2013-01-01",
-    "id": "0000000421"
+    "isOperational": true,
+    "id": "0000000421",
+    "resourceIds": [
+      "0000000551"
+    ]
   },
   {
-    "title": "[준비중(Preparing)] 학술문화관(문화관) 이벤트아트리움",
+    "name": "학술문화관(문화관) 이벤트아트리움",
     "description": "학술문화관(문화관) 이벤트아트리움",
     "resourceDescription": "이벤트아트리움 외 0건",
     "tag": [
@@ -844,10 +1195,11 @@
     ],
     "manager": "조준형 (042-350-0342)",
     "registeredDate": "2018-04-09",
+    "isOperational": false,
     "id": "0000000600"
   },
   {
-    "title": "[운영중(Operating)] 학술문화관(문화관) 콜라보레이션룸",
+    "name": "학술문화관(문화관) 콜라보레이션룸",
     "description": "학술문화관(문화관) 콜라보레이션룸",
     "resourceDescription": "콜라보레이션룸A 외 0건",
     "tag": [
@@ -855,10 +1207,11 @@
     ],
     "manager": "조준형 (042-350-0342)",
     "registeredDate": "2018-03-01",
+    "isOperational": true,
     "id": "0000000000"
   },
   {
-    "title": "[운영중(Operating)] 의과학연구센터(E7) 하자유욱준홀 (1111호)",
+    "name": "의과학연구센터(E7) 하자유욱준홀 (1111호)",
     "description": "의과학연구센터(E7) 하자 유욱준홀(1층 1111호) 예약",
     "resourceDescription": "의과학연구센터 하자 유욱준홀(1111호) 외 0건",
     "tag": [
@@ -869,10 +1222,14 @@
     ],
     "manager": "김아랑 (042-350-8153)",
     "registeredDate": "2021-07-05",
-    "id": "0000000663"
+    "isOperational": true,
+    "id": "0000000663",
+    "resourceIds": [
+      "0000006116"
+    ]
   },
   {
-    "title": "[운영중(Operating)] 피트니스(신규회원추첨)",
+    "name": "피트니스(신규회원추첨)",
     "description": "피트니스 신규회원 추첨신청을 위한 예약 프로그램 입니다.",
     "resourceDescription": "피트니스 1 외 299건",
     "tag": [
@@ -880,6 +1237,7 @@
     ],
     "manager": "염홍관 (042-350-4813)",
     "registeredDate": "2013-01-01",
+    "isOperational": true,
     "id": "0000000143"
   }
 ]
