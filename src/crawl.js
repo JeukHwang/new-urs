@@ -52,11 +52,11 @@ async function get_resourceGroup_in_page(page) {
         if (isLibitUrl) {
             await fs.writeFile("./data/tmp/warn_libit.json", titleElem.outerHTML + "\n", { flag: "a" });
         }
-        const prgrId = isLibitUrl ? "0000000000" : href.match(/prgrId=(\d+)/)[1];
+        const groupId = isLibitUrl ? "0000000000" : href.match(/prgrId=(\d+)/)[1];
         const title = titleElem.innerText.trim();
         const [description, itemDescription, type, manager, date] = item.querySelectorAll("dl > dd").map((dd) => dd.innerText.trim());
         const tag = type.split(",").filter((t) => t !== "");
-        return { title, description, itemDescription, tag, manager, registeredDate: date, prgrId };
+        return { title, description, itemDescription, tag, manager, registeredDate: date, groupId };
     }));
     return search_JSON;
 }
