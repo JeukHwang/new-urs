@@ -6,7 +6,10 @@ import { searchRouter } from "./router/search.router.js";
 
 const app = express();
 app.use(express.json());
-app.use(cors());         
+app.use(cors({
+    origin: "http://urs.kaist.ac.kr",
+    credentials: true,
+}));         
 app.use(cookieParser());
 app.use("/api/search", searchRouter);
 app.use("/api/reservation", reservationRouter);
