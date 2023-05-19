@@ -2,7 +2,7 @@ import axios from "axios";
 import dotenv from "dotenv";
 import { parse } from 'node-html-parser';
 import * as fs from 'node:fs/promises';
-import { search_url } from "./url.js";
+import { reserve_resource_url, search_url } from "./url.js";
 
 dotenv.config();
 
@@ -69,14 +69,49 @@ async function get_all_location() {
     return searchResult;
 }
 
+async function get_resource_in_location(locationId) {
+    const formData = new URLSearchParams();
+    formData.append("prgrId", locationId);
+    const content = await axios.post(reserve_resource_url, formData, {
+        headers: { Cookie: process.env.COOKIE }
+    });
+    const html = content.data;
+    await validateLogin(html);
+
+    const root = parse(html);
+    const search_JSON = root.querySelectorAll(".table_list > tbody > tr").map((item) => {
+        const resourceId = item.querySelector("td > input").getAttribute("value");
+        const [_, title, location, buildingNumber, floor, room, capacity, equipment] = item.querySelectorAll("td").map((td) => td.innerText.trim());
+        return { title, location, buildingNumber, floor, room, capacity, equipment, resourceId, locationId };
+    });
+    return search_JSON;
+}
+
+async function get_all_resource() {
+    const location = await fs.readFile("./data/location.json", "utf-8");
+    const location_JSON = JSON.parse(location);
+    const locationIdList = location_JSON.map((item) => item.id);
+    const resourceList = await Promise.all(locationIdList.map(get_resource_in_location));
+    const resource = [].concat(...resourceList);
+    return resource;
+}
 
 async function main() {
     await initDir();
 
     // Update location and save into ./data/location.json
-    const searchResult = await get_all_location();
-    const pretty_JSON_string = JSON.stringify(searchResult, null, 2);
-    await fs.writeFile("./data/location.json", pretty_JSON_string);
+    // const searchResult = await get_all_location();
+    // const pretty_JSON_string = JSON.stringify(searchResult, null, 2);
+    // await fs.writeFile("./data/location.json", pretty_JSON_string);
+    // console.log(searchResult.length); // 77
+
+    // Update resource and save into ./data/resource.json
+    const resource = await get_all_resource();
+    const pretty_JSON_string = JSON.stringify(resource, null, 2);
+    await fs.writeFile("./data/resource.json", pretty_JSON_string);
+    console.log(resource.length); // 173
+
+    // get_resource_in_location("0000000501");
 }
 
 main();
