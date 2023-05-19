@@ -27,8 +27,8 @@ reservationRouter.put("/reservation", async (req, res) => {
 // Cancel a reservation
 reservationRouter.delete("/reservation", async (req, res) => {
     // TODO: Implement this function
-    const {reservationId, locatioId} = req.body;
-    await cancel_Reservation(reservationId, locatioId);
+    const {reservationId, locationId} = req.body;
+    await cancel_Reservation(reservationId, locationId);
     res.json({
         "cancel": "success"
     })
