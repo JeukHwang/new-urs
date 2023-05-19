@@ -46,17 +46,17 @@ async function get_location_in_page(page) {
     const root = parse(html);
     const search_elem = root.querySelectorAll(".srch_list");
     const search_JSON = await Promise.all(search_elem.map(async (item) => {
-        const titleElem = item.querySelector("p > a");
-        const href = titleElem.getAttribute("href");
+        const nameElem = item.querySelector("p > a");
+        const href = nameElem.getAttribute("href");
         const isLibitUrl = href == "#";
         if (isLibitUrl) {
-            await fs.writeFile("./data/tmp/warn_libit.json", titleElem.outerHTML + "\n", { flag: "a" });
+            await fs.writeFile("./data/tmp/warn_libit.json", nameElem.outerHTML + "\n", { flag: "a" });
         }
         const id = isLibitUrl ? "0000000000" : href.match(/prgrId=(\d+)/)[1];
-        const title = titleElem.innerText.trim();
+        const name = nameElem.innerText.trim();
         const [description, resourceDescription, type, manager, date] = item.querySelectorAll("dl > dd").map((dd) => dd.innerText.trim());
         const tag = type.split(",").filter((t) => t !== "");
-        return { title, description, resourceDescription, tag, manager, registeredDate: date, id };
+        return { name, description, resourceDescription, tag, manager, registeredDate: date, id };
     }));
     return search_JSON;
 }
@@ -81,8 +81,8 @@ async function get_resource_in_location(locationId) {
     const root = parse(html);
     const search_JSON = root.querySelectorAll(".table_list > tbody > tr").map((item) => {
         const resourceId = item.querySelector("td > input").getAttribute("value");
-        const [_, title, location, buildingNumber, floor, room, capacity, equipment] = item.querySelectorAll("td").map((td) => td.innerText.trim());
-        return { title, location, buildingNumber, floor, room, capacity, equipment, resourceId, locationId };
+        const [_, name, location, buildingNumber, floor, room, capacity, equipment] = item.querySelectorAll("td").map((td) => td.innerText.trim());
+        return { name, location, buildingNumber, floor, room, capacity, equipment, resourceId, locationId };
     });
     return search_JSON;
 }
