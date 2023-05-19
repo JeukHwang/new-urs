@@ -7,7 +7,7 @@
     "room": "N/A",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000001423",
+    "id": "0000001423",
     "locationId": "0000000501"
   },
   {
@@ -18,7 +18,7 @@
     "room": "N/A",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000001421",
+    "id": "0000001421",
     "locationId": "0000000501"
   },
   {
@@ -29,7 +29,7 @@
     "room": "N/A",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000001422",
+    "id": "0000001422",
     "locationId": "0000000501"
   },
   {
@@ -40,7 +40,7 @@
     "room": "N/A",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000001424",
+    "id": "0000001424",
     "locationId": "0000000501"
   },
   {
@@ -51,7 +51,7 @@
     "room": "N/A",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000001425",
+    "id": "0000001425",
     "locationId": "0000000501"
   },
   {
@@ -62,7 +62,7 @@
     "room": "N/A",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000001401",
+    "id": "0000001401",
     "locationId": "0000000482"
   },
   {
@@ -73,7 +73,7 @@
     "room": "N/A",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000001408",
+    "id": "0000001408",
     "locationId": "0000000495"
   },
   {
@@ -84,7 +84,7 @@
     "room": "N/A",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000001409",
+    "id": "0000001409",
     "locationId": "0000000495"
   },
   {
@@ -95,7 +95,7 @@
     "room": "N/A",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000001410",
+    "id": "0000001410",
     "locationId": "0000000495"
   },
   {
@@ -106,7 +106,7 @@
     "room": "",
     "capacity": "10",
     "equipment": "",
-    "resourceId": "0000005606",
+    "id": "0000005606",
     "locationId": "0000000529"
   },
   {
@@ -117,7 +117,7 @@
     "room": "",
     "capacity": "10",
     "equipment": "",
-    "resourceId": "0000005607",
+    "id": "0000005607",
     "locationId": "0000000529"
   },
   {
@@ -128,7 +128,7 @@
     "room": "",
     "capacity": "6",
     "equipment": "",
-    "resourceId": "0000005601",
+    "id": "0000005601",
     "locationId": "0000000529"
   },
   {
@@ -139,7 +139,7 @@
     "room": "",
     "capacity": "6",
     "equipment": "",
-    "resourceId": "0000005602",
+    "id": "0000005602",
     "locationId": "0000000529"
   },
   {
@@ -150,7 +150,7 @@
     "room": "",
     "capacity": "6",
     "equipment": "",
-    "resourceId": "0000005603",
+    "id": "0000005603",
     "locationId": "0000000529"
   },
   {
@@ -161,7 +161,7 @@
     "room": "",
     "capacity": "6",
     "equipment": "",
-    "resourceId": "0000005604",
+    "id": "0000005604",
     "locationId": "0000000529"
   },
   {
@@ -172,7 +172,7 @@
     "room": "",
     "capacity": "6",
     "equipment": "",
-    "resourceId": "0000005605",
+    "id": "0000005605",
     "locationId": "0000000529"
   },
   {
@@ -183,7 +183,7 @@
     "room": "",
     "capacity": "6",
     "equipment": "",
-    "resourceId": "0000006124",
+    "id": "0000006124",
     "locationId": "0000000529"
   },
   {
@@ -194,7 +194,7 @@
     "room": "",
     "capacity": "6",
     "equipment": "",
-    "resourceId": "0000006125",
+    "id": "0000006125",
     "locationId": "0000000529"
   },
   {
@@ -205,7 +205,7 @@
     "room": "",
     "capacity": "6",
     "equipment": "",
-    "resourceId": "0000006126",
+    "id": "0000006126",
     "locationId": "0000000529"
   },
   {
@@ -216,7 +216,7 @@
     "room": "N/A",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000001403",
+    "id": "0000001403",
     "locationId": "0000000488"
   },
   {
@@ -227,7 +227,7 @@
     "room": "N/A",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000001404",
+    "id": "0000001404",
     "locationId": "0000000488"
   },
   {
@@ -238,7 +238,7 @@
     "room": "키친",
     "capacity": "10",
     "equipment": "",
-    "resourceId": "0000005658",
+    "id": "0000005658",
     "locationId": "0000000544"
   },
   {
@@ -249,7 +249,7 @@
     "room": "키친",
     "capacity": "5",
     "equipment": "",
-    "resourceId": "0000005657",
+    "id": "0000005657",
     "locationId": "0000000544"
   },
   {
@@ -260,7 +260,7 @@
     "room": "1113호",
     "capacity": "422",
     "equipment": "",
-    "resourceId": "0000000551",
+    "id": "0000000551",
     "locationId": "0000000422"
   },
   {
@@ -271,7 +271,7 @@
     "room": "1105호",
     "capacity": "20",
     "equipment": "",
-    "resourceId": "0000000553",
+    "id": "0000000553",
     "locationId": "0000000433"
   },
   {
@@ -282,7 +282,7 @@
     "room": "1105호",
     "capacity": "20",
     "equipment": "",
-    "resourceId": "0000000553",
+    "id": "0000000553",
     "locationId": "0000000432"
   },
   {
@@ -293,7 +293,7 @@
     "room": "2504-2",
     "capacity": "56",
     "equipment": "",
-    "resourceId": "0000005673",
+    "id": "0000005673",
     "locationId": "0000000557"
   },
   {
@@ -304,7 +304,7 @@
     "room": "304호",
     "capacity": "15",
     "equipment": "",
-    "resourceId": "0000006117",
+    "id": "0000006117",
     "locationId": "0000000664"
   },
   {
@@ -315,7 +315,7 @@
     "room": "",
     "capacity": "150",
     "equipment": "",
-    "resourceId": "0000000701",
+    "id": "0000000701",
     "locationId": "0000000463"
   },
   {
@@ -326,7 +326,7 @@
     "room": "",
     "capacity": "250",
     "equipment": "",
-    "resourceId": "0000000102",
+    "id": "0000000102",
     "locationId": "0000000478"
   },
   {
@@ -337,7 +337,7 @@
     "room": "1114호",
     "capacity": "60",
     "equipment": "",
-    "resourceId": "0000000552",
+    "id": "0000000552",
     "locationId": "0000000426"
   },
   {
@@ -348,7 +348,7 @@
     "room": "1113호",
     "capacity": "422",
     "equipment": "",
-    "resourceId": "0000000551",
+    "id": "0000000551",
     "locationId": "0000000423"
   },
   {
@@ -359,7 +359,7 @@
     "room": "103",
     "capacity": "36",
     "equipment": "",
-    "resourceId": "0000005651",
+    "id": "0000005651",
     "locationId": "0000000530"
   },
   {
@@ -370,7 +370,7 @@
     "room": "7221",
     "capacity": "4",
     "equipment": "",
-    "resourceId": "0000006184",
+    "id": "0000006184",
     "locationId": "0000000420"
   },
   {
@@ -381,7 +381,7 @@
     "room": "1114호",
     "capacity": "60",
     "equipment": "",
-    "resourceId": "0000000552",
+    "id": "0000000552",
     "locationId": "0000000427"
   },
   {
@@ -392,7 +392,7 @@
     "room": "N/A",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000001405",
+    "id": "0000001405",
     "locationId": "0000000492"
   },
   {
@@ -403,7 +403,7 @@
     "room": "",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005936",
+    "id": "0000005936",
     "locationId": "0000000578"
   },
   {
@@ -414,7 +414,7 @@
     "room": "F640호",
     "capacity": "30",
     "equipment": "",
-    "resourceId": "0000006042",
+    "id": "0000006042",
     "locationId": "0000000620"
   },
   {
@@ -425,7 +425,7 @@
     "room": "N/A",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000001411",
+    "id": "0000001411",
     "locationId": "0000000497"
   },
   {
@@ -436,7 +436,7 @@
     "room": "",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005936",
+    "id": "0000005936",
     "locationId": "0000000590"
   },
   {
@@ -447,7 +447,7 @@
     "room": "",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005937",
+    "id": "0000005937",
     "locationId": "0000000590"
   },
   {
@@ -458,7 +458,7 @@
     "room": "",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005938",
+    "id": "0000005938",
     "locationId": "0000000590"
   },
   {
@@ -469,7 +469,7 @@
     "room": "",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005939",
+    "id": "0000005939",
     "locationId": "0000000590"
   },
   {
@@ -480,7 +480,7 @@
     "room": "",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005940",
+    "id": "0000005940",
     "locationId": "0000000590"
   },
   {
@@ -491,7 +491,7 @@
     "room": "",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005941",
+    "id": "0000005941",
     "locationId": "0000000590"
   },
   {
@@ -502,7 +502,7 @@
     "room": "",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005942",
+    "id": "0000005942",
     "locationId": "0000000590"
   },
   {
@@ -513,7 +513,7 @@
     "room": "",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005943",
+    "id": "0000005943",
     "locationId": "0000000590"
   },
   {
@@ -524,7 +524,7 @@
     "room": "",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005944",
+    "id": "0000005944",
     "locationId": "0000000590"
   },
   {
@@ -535,7 +535,7 @@
     "room": "",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005945",
+    "id": "0000005945",
     "locationId": "0000000590"
   },
   {
@@ -546,7 +546,7 @@
     "room": "301호",
     "capacity": "30",
     "equipment": "",
-    "resourceId": "0000006123",
+    "id": "0000006123",
     "locationId": "0000000668"
   },
   {
@@ -557,7 +557,7 @@
     "room": "105",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005653",
+    "id": "0000005653",
     "locationId": "0000000542"
   },
   {
@@ -568,7 +568,7 @@
     "room": "204,205",
     "capacity": "30",
     "equipment": "",
-    "resourceId": "0000000704",
+    "id": "0000000704",
     "locationId": "0000000465"
   },
   {
@@ -579,7 +579,7 @@
     "room": "Conference",
     "capacity": "17",
     "equipment": "",
-    "resourceId": "0000005661",
+    "id": "0000005661",
     "locationId": "0000000547"
   },
   {
@@ -590,7 +590,7 @@
     "room": "Connect",
     "capacity": "50",
     "equipment": "",
-    "resourceId": "0000005663",
+    "id": "0000005663",
     "locationId": "0000000547"
   },
   {
@@ -601,7 +601,7 @@
     "room": "Challenge",
     "capacity": "30",
     "equipment": "",
-    "resourceId": "0000005664",
+    "id": "0000005664",
     "locationId": "0000000547"
   },
   {
@@ -612,7 +612,7 @@
     "room": "Collaboration",
     "capacity": "70",
     "equipment": "",
-    "resourceId": "0000005662",
+    "id": "0000005662",
     "locationId": "0000000547"
   },
   {
@@ -623,7 +623,7 @@
     "room": "A809호",
     "capacity": "30",
     "equipment": "",
-    "resourceId": "0000000401",
+    "id": "0000000401",
     "locationId": "0000000301"
   },
   {
@@ -634,7 +634,7 @@
     "room": "1202",
     "capacity": "12",
     "equipment": "",
-    "resourceId": "0000006058",
+    "id": "0000006058",
     "locationId": "0000000634"
   },
   {
@@ -645,7 +645,7 @@
     "room": "",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000000407",
+    "id": "0000000407",
     "locationId": "0000000307"
   },
   {
@@ -656,7 +656,7 @@
     "room": "2111호",
     "capacity": "40",
     "equipment": "",
-    "resourceId": "0000006114",
+    "id": "0000006114",
     "locationId": "0000000661"
   },
   {
@@ -667,7 +667,7 @@
     "room": "",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000000161",
+    "id": "0000000161",
     "locationId": "0000000128"
   },
   {
@@ -678,7 +678,7 @@
     "room": "",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000000162",
+    "id": "0000000162",
     "locationId": "0000000128"
   },
   {
@@ -689,7 +689,7 @@
     "room": "",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000000163",
+    "id": "0000000163",
     "locationId": "0000000128"
   },
   {
@@ -700,7 +700,7 @@
     "room": "",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000000323",
+    "id": "0000000323",
     "locationId": "0000000318"
   },
   {
@@ -711,7 +711,7 @@
     "room": "125",
     "capacity": "200",
     "equipment": "",
-    "resourceId": "0000000101",
+    "id": "0000000101",
     "locationId": "0000000477"
   },
   {
@@ -722,7 +722,7 @@
     "room": "",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000000408",
+    "id": "0000000408",
     "locationId": "0000000308"
   },
   {
@@ -733,7 +733,7 @@
     "room": "",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000000409",
+    "id": "0000000409",
     "locationId": "0000000308"
   },
   {
@@ -744,7 +744,7 @@
     "room": "",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000000410",
+    "id": "0000000410",
     "locationId": "0000000308"
   },
   {
@@ -755,7 +755,7 @@
     "room": "",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000000411",
+    "id": "0000000411",
     "locationId": "0000000308"
   },
   {
@@ -766,7 +766,7 @@
     "room": "",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000000412",
+    "id": "0000000412",
     "locationId": "0000000308"
   },
   {
@@ -777,7 +777,7 @@
     "room": "1114호",
     "capacity": "60",
     "equipment": "",
-    "resourceId": "0000000552",
+    "id": "0000000552",
     "locationId": "0000000428"
   },
   {
@@ -788,7 +788,7 @@
     "room": "N/A",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000001821",
+    "id": "0000001821",
     "locationId": "0000000514"
   },
   {
@@ -799,7 +799,7 @@
     "room": "1316",
     "capacity": "36",
     "equipment": "",
-    "resourceId": "0000005950",
+    "id": "0000005950",
     "locationId": "0000000580"
   },
   {
@@ -810,7 +810,7 @@
     "room": "2320",
     "capacity": "50",
     "equipment": "",
-    "resourceId": "0000005949",
+    "id": "0000005949",
     "locationId": "0000000580"
   },
   {
@@ -821,7 +821,7 @@
     "room": "3301",
     "capacity": "24",
     "equipment": "",
-    "resourceId": "0000005946",
+    "id": "0000005946",
     "locationId": "0000000580"
   },
   {
@@ -832,7 +832,7 @@
     "room": "4301",
     "capacity": "20",
     "equipment": "",
-    "resourceId": "0000005948",
+    "id": "0000005948",
     "locationId": "0000000580"
   },
   {
@@ -843,7 +843,7 @@
     "room": "4315",
     "capacity": "16",
     "equipment": "",
-    "resourceId": "0000006013",
+    "id": "0000006013",
     "locationId": "0000000580"
   },
   {
@@ -854,7 +854,7 @@
     "room": "",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000006127",
+    "id": "0000006127",
     "locationId": "0000000580"
   },
   {
@@ -865,7 +865,7 @@
     "room": "308호",
     "capacity": "20",
     "equipment": "",
-    "resourceId": "0000006108",
+    "id": "0000006108",
     "locationId": "0000000580"
   },
   {
@@ -876,7 +876,7 @@
     "room": "복도",
     "capacity": "1",
     "equipment": "",
-    "resourceId": "0000006170",
+    "id": "0000006170",
     "locationId": "0000000580"
   },
   {
@@ -887,7 +887,7 @@
     "room": "로비",
     "capacity": "100",
     "equipment": "",
-    "resourceId": "0000000404",
+    "id": "0000000404",
     "locationId": "0000000304"
   },
   {
@@ -898,7 +898,7 @@
     "room": "L114",
     "capacity": "400",
     "equipment": "",
-    "resourceId": "0000000402",
+    "id": "0000000402",
     "locationId": "0000000302"
   },
   {
@@ -909,7 +909,7 @@
     "room": "",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000000321",
+    "id": "0000000321",
     "locationId": "0000000311"
   },
   {
@@ -920,7 +920,7 @@
     "room": "",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000006130",
+    "id": "0000006130",
     "locationId": "0000000311"
   },
   {
@@ -931,7 +931,7 @@
     "room": "",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000000406",
+    "id": "0000000406",
     "locationId": "0000000306"
   },
   {
@@ -942,7 +942,7 @@
     "room": "",
     "capacity": "115",
     "equipment": "",
-    "resourceId": "0000000501",
+    "id": "0000000501",
     "locationId": "0000000406"
   },
   {
@@ -953,7 +953,7 @@
     "room": "",
     "capacity": "102",
     "equipment": "",
-    "resourceId": "0000000502",
+    "id": "0000000502",
     "locationId": "0000000406"
   },
   {
@@ -964,7 +964,7 @@
     "room": "",
     "capacity": "115",
     "equipment": "",
-    "resourceId": "0000000503",
+    "id": "0000000503",
     "locationId": "0000000406"
   },
   {
@@ -975,7 +975,7 @@
     "room": "",
     "capacity": "115",
     "equipment": "",
-    "resourceId": "0000000505",
+    "id": "0000000505",
     "locationId": "0000000406"
   },
   {
@@ -986,7 +986,7 @@
     "room": "",
     "capacity": "102",
     "equipment": "",
-    "resourceId": "0000000506",
+    "id": "0000000506",
     "locationId": "0000000406"
   },
   {
@@ -997,7 +997,7 @@
     "room": "",
     "capacity": "115",
     "equipment": "",
-    "resourceId": "0000000507",
+    "id": "0000000507",
     "locationId": "0000000406"
   },
   {
@@ -1008,7 +1008,7 @@
     "room": "",
     "capacity": "80",
     "equipment": "",
-    "resourceId": "0000000508",
+    "id": "0000000508",
     "locationId": "0000000406"
   },
   {
@@ -1019,7 +1019,7 @@
     "room": "",
     "capacity": "55",
     "equipment": "",
-    "resourceId": "0000000509",
+    "id": "0000000509",
     "locationId": "0000000406"
   },
   {
@@ -1030,7 +1030,7 @@
     "room": "",
     "capacity": "55",
     "equipment": "",
-    "resourceId": "0000000510",
+    "id": "0000000510",
     "locationId": "0000000406"
   },
   {
@@ -1041,7 +1041,7 @@
     "room": "",
     "capacity": "55",
     "equipment": "",
-    "resourceId": "0000000511",
+    "id": "0000000511",
     "locationId": "0000000406"
   },
   {
@@ -1052,7 +1052,7 @@
     "room": "",
     "capacity": "44",
     "equipment": "",
-    "resourceId": "0000000512",
+    "id": "0000000512",
     "locationId": "0000000406"
   },
   {
@@ -1063,7 +1063,7 @@
     "room": "",
     "capacity": "90",
     "equipment": "",
-    "resourceId": "0000000513",
+    "id": "0000000513",
     "locationId": "0000000406"
   },
   {
@@ -1074,7 +1074,7 @@
     "room": "",
     "capacity": "84",
     "equipment": "",
-    "resourceId": "0000000514",
+    "id": "0000000514",
     "locationId": "0000000406"
   },
   {
@@ -1085,7 +1085,7 @@
     "room": "",
     "capacity": "115",
     "equipment": "",
-    "resourceId": "0000000515",
+    "id": "0000000515",
     "locationId": "0000000406"
   },
   {
@@ -1096,7 +1096,7 @@
     "room": "",
     "capacity": "102",
     "equipment": "",
-    "resourceId": "0000000516",
+    "id": "0000000516",
     "locationId": "0000000406"
   },
   {
@@ -1107,7 +1107,7 @@
     "room": "",
     "capacity": "115",
     "equipment": "",
-    "resourceId": "0000000517",
+    "id": "0000000517",
     "locationId": "0000000406"
   },
   {
@@ -1118,7 +1118,7 @@
     "room": "",
     "capacity": "252",
     "equipment": "",
-    "resourceId": "0000000518",
+    "id": "0000000518",
     "locationId": "0000000406"
   },
   {
@@ -1129,7 +1129,7 @@
     "room": "",
     "capacity": "40",
     "equipment": "",
-    "resourceId": "0000000519",
+    "id": "0000000519",
     "locationId": "0000000406"
   },
   {
@@ -1140,7 +1140,7 @@
     "room": "",
     "capacity": "59",
     "equipment": "",
-    "resourceId": "0000000520",
+    "id": "0000000520",
     "locationId": "0000000406"
   },
   {
@@ -1151,7 +1151,7 @@
     "room": "",
     "capacity": "59",
     "equipment": "",
-    "resourceId": "0000000521",
+    "id": "0000000521",
     "locationId": "0000000406"
   },
   {
@@ -1162,7 +1162,7 @@
     "room": "",
     "capacity": "131",
     "equipment": "",
-    "resourceId": "0000000522",
+    "id": "0000000522",
     "locationId": "0000000406"
   },
   {
@@ -1173,7 +1173,7 @@
     "room": "",
     "capacity": "96",
     "equipment": "",
-    "resourceId": "0000000523",
+    "id": "0000000523",
     "locationId": "0000000406"
   },
   {
@@ -1184,7 +1184,7 @@
     "room": "",
     "capacity": "177",
     "equipment": "",
-    "resourceId": "0000000524",
+    "id": "0000000524",
     "locationId": "0000000406"
   },
   {
@@ -1195,7 +1195,7 @@
     "room": "",
     "capacity": "115",
     "equipment": "",
-    "resourceId": "0000000525",
+    "id": "0000000525",
     "locationId": "0000000406"
   },
   {
@@ -1206,7 +1206,7 @@
     "room": "",
     "capacity": "102",
     "equipment": "",
-    "resourceId": "0000000526",
+    "id": "0000000526",
     "locationId": "0000000406"
   },
   {
@@ -1217,7 +1217,7 @@
     "room": "",
     "capacity": "115",
     "equipment": "",
-    "resourceId": "0000000527",
+    "id": "0000000527",
     "locationId": "0000000406"
   },
   {
@@ -1228,7 +1228,7 @@
     "room": "",
     "capacity": "45",
     "equipment": "",
-    "resourceId": "0000000529",
+    "id": "0000000529",
     "locationId": "0000000406"
   },
   {
@@ -1239,7 +1239,7 @@
     "room": "",
     "capacity": "45",
     "equipment": "",
-    "resourceId": "0000000530",
+    "id": "0000000530",
     "locationId": "0000000406"
   },
   {
@@ -1250,7 +1250,7 @@
     "room": "",
     "capacity": "45",
     "equipment": "",
-    "resourceId": "0000000531",
+    "id": "0000000531",
     "locationId": "0000000406"
   },
   {
@@ -1261,7 +1261,7 @@
     "room": "",
     "capacity": "45",
     "equipment": "",
-    "resourceId": "0000000532",
+    "id": "0000000532",
     "locationId": "0000000406"
   },
   {
@@ -1272,7 +1272,7 @@
     "room": "",
     "capacity": "131",
     "equipment": "",
-    "resourceId": "0000000533",
+    "id": "0000000533",
     "locationId": "0000000406"
   },
   {
@@ -1283,7 +1283,7 @@
     "room": "",
     "capacity": "96",
     "equipment": "",
-    "resourceId": "0000000534",
+    "id": "0000000534",
     "locationId": "0000000406"
   },
   {
@@ -1294,7 +1294,7 @@
     "room": "",
     "capacity": "177",
     "equipment": "",
-    "resourceId": "0000000535",
+    "id": "0000000535",
     "locationId": "0000000406"
   },
   {
@@ -1305,7 +1305,7 @@
     "room": "",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000000536",
+    "id": "0000000536",
     "locationId": "0000000406"
   },
   {
@@ -1316,7 +1316,7 @@
     "room": "",
     "capacity": "289",
     "equipment": "",
-    "resourceId": "0000000504",
+    "id": "0000000504",
     "locationId": "0000000406"
   },
   {
@@ -1327,7 +1327,7 @@
     "room": "1117호",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005984",
+    "id": "0000005984",
     "locationId": "0000000608"
   },
   {
@@ -1338,7 +1338,7 @@
     "room": "1117호",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005994",
+    "id": "0000005994",
     "locationId": "0000000608"
   },
   {
@@ -1349,7 +1349,7 @@
     "room": "1117호",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005993",
+    "id": "0000005993",
     "locationId": "0000000608"
   },
   {
@@ -1360,7 +1360,7 @@
     "room": "1117호",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005996",
+    "id": "0000005996",
     "locationId": "0000000608"
   },
   {
@@ -1371,7 +1371,7 @@
     "room": "1117호",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005995",
+    "id": "0000005995",
     "locationId": "0000000608"
   },
   {
@@ -1382,7 +1382,7 @@
     "room": "1117호",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005989",
+    "id": "0000005989",
     "locationId": "0000000608"
   },
   {
@@ -1393,7 +1393,7 @@
     "room": "1117호",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005990",
+    "id": "0000005990",
     "locationId": "0000000608"
   },
   {
@@ -1404,7 +1404,7 @@
     "room": "1117호",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005991",
+    "id": "0000005991",
     "locationId": "0000000608"
   },
   {
@@ -1415,7 +1415,7 @@
     "room": "1117호",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000006004",
+    "id": "0000006004",
     "locationId": "0000000608"
   },
   {
@@ -1426,7 +1426,7 @@
     "room": "1117호",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005986",
+    "id": "0000005986",
     "locationId": "0000000608"
   },
   {
@@ -1437,7 +1437,7 @@
     "room": "1117호",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000006000",
+    "id": "0000006000",
     "locationId": "0000000608"
   },
   {
@@ -1448,7 +1448,7 @@
     "room": "1117호",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005998",
+    "id": "0000005998",
     "locationId": "0000000608"
   },
   {
@@ -1459,7 +1459,7 @@
     "room": "1117호",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000006001",
+    "id": "0000006001",
     "locationId": "0000000608"
   },
   {
@@ -1470,7 +1470,7 @@
     "room": "1117호",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005985",
+    "id": "0000005985",
     "locationId": "0000000608"
   },
   {
@@ -1481,7 +1481,7 @@
     "room": "1117호",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005988",
+    "id": "0000005988",
     "locationId": "0000000608"
   },
   {
@@ -1492,7 +1492,7 @@
     "room": "1117호",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000006003",
+    "id": "0000006003",
     "locationId": "0000000608"
   },
   {
@@ -1503,7 +1503,7 @@
     "room": "1117호",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000006006",
+    "id": "0000006006",
     "locationId": "0000000608"
   },
   {
@@ -1514,7 +1514,7 @@
     "room": "1117호",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000006002",
+    "id": "0000006002",
     "locationId": "0000000608"
   },
   {
@@ -1525,7 +1525,7 @@
     "room": "1117호",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005997",
+    "id": "0000005997",
     "locationId": "0000000608"
   },
   {
@@ -1536,7 +1536,7 @@
     "room": "1117호",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005987",
+    "id": "0000005987",
     "locationId": "0000000608"
   },
   {
@@ -1547,7 +1547,7 @@
     "room": "1117호",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005999",
+    "id": "0000005999",
     "locationId": "0000000608"
   },
   {
@@ -1558,7 +1558,7 @@
     "room": "1117호",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005992",
+    "id": "0000005992",
     "locationId": "0000000608"
   },
   {
@@ -1569,7 +1569,7 @@
     "room": "1117호",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000006005",
+    "id": "0000006005",
     "locationId": "0000000608"
   },
   {
@@ -1580,7 +1580,7 @@
     "room": "N/A",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000001402",
+    "id": "0000001402",
     "locationId": "0000000485"
   },
   {
@@ -1591,7 +1591,7 @@
     "room": "",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000000556",
+    "id": "0000000556",
     "locationId": "0000000436"
   },
   {
@@ -1602,7 +1602,7 @@
     "room": "",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000000557",
+    "id": "0000000557",
     "locationId": "0000000436"
   },
   {
@@ -1613,7 +1613,7 @@
     "room": "1114호",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000000561",
+    "id": "0000000561",
     "locationId": "0000000436"
   },
   {
@@ -1624,7 +1624,7 @@
     "room": "1114호",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000000560",
+    "id": "0000000560",
     "locationId": "0000000436"
   },
   {
@@ -1635,7 +1635,7 @@
     "room": "1113호",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000000559",
+    "id": "0000000559",
     "locationId": "0000000436"
   },
   {
@@ -1646,7 +1646,7 @@
     "room": "1113호",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000000558",
+    "id": "0000000558",
     "locationId": "0000000436"
   },
   {
@@ -1657,7 +1657,7 @@
     "room": "1105호",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000000562",
+    "id": "0000000562",
     "locationId": "0000000436"
   },
   {
@@ -1668,7 +1668,7 @@
     "room": "",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000000555",
+    "id": "0000000555",
     "locationId": "0000000436"
   },
   {
@@ -1679,7 +1679,7 @@
     "room": "",
     "capacity": "0",
     "equipment": "",
-    "resourceId": "0000000554",
+    "id": "0000000554",
     "locationId": "0000000436"
   },
   {
@@ -1690,7 +1690,7 @@
     "room": "L102",
     "capacity": "30",
     "equipment": "",
-    "resourceId": "0000000414",
+    "id": "0000000414",
     "locationId": "0000000536"
   },
   {
@@ -1701,7 +1701,7 @@
     "room": "L103",
     "capacity": "30",
     "equipment": "",
-    "resourceId": "0000000415",
+    "id": "0000000415",
     "locationId": "0000000536"
   },
   {
@@ -1712,7 +1712,7 @@
     "room": "L104",
     "capacity": "100",
     "equipment": "",
-    "resourceId": "0000000416",
+    "id": "0000000416",
     "locationId": "0000000536"
   },
   {
@@ -1723,7 +1723,7 @@
     "room": "L202",
     "capacity": "30",
     "equipment": "",
-    "resourceId": "0000000417",
+    "id": "0000000417",
     "locationId": "0000000536"
   },
   {
@@ -1734,7 +1734,7 @@
     "room": "L204",
     "capacity": "30",
     "equipment": "",
-    "resourceId": "0000000418",
+    "id": "0000000418",
     "locationId": "0000000536"
   },
   {
@@ -1745,7 +1745,7 @@
     "room": "L301",
     "capacity": "30",
     "equipment": "",
-    "resourceId": "0000000419",
+    "id": "0000000419",
     "locationId": "0000000536"
   },
   {
@@ -1756,7 +1756,7 @@
     "room": "L303",
     "capacity": "30",
     "equipment": "",
-    "resourceId": "0000000420",
+    "id": "0000000420",
     "locationId": "0000000536"
   },
   {
@@ -1767,7 +1767,7 @@
     "room": "L305",
     "capacity": "30",
     "equipment": "",
-    "resourceId": "0000000421",
+    "id": "0000000421",
     "locationId": "0000000536"
   },
   {
@@ -1778,7 +1778,7 @@
     "room": "L411",
     "capacity": "80",
     "equipment": "",
-    "resourceId": "0000005983",
+    "id": "0000005983",
     "locationId": "0000000536"
   },
   {
@@ -1789,7 +1789,7 @@
     "room": "L701",
     "capacity": "35",
     "equipment": "",
-    "resourceId": "0000000427",
+    "id": "0000000427",
     "locationId": "0000000536"
   },
   {
@@ -1800,7 +1800,7 @@
     "room": "",
     "capacity": "250",
     "equipment": "",
-    "resourceId": "0000000102",
+    "id": "0000000102",
     "locationId": "0000000123"
   },
   {
@@ -1811,7 +1811,7 @@
     "room": "1105호",
     "capacity": "20",
     "equipment": "",
-    "resourceId": "0000000553",
+    "id": "0000000553",
     "locationId": "0000000431"
   },
   {
@@ -1822,7 +1822,7 @@
     "room": "2113호",
     "capacity": "40",
     "equipment": "",
-    "resourceId": "0000006115",
+    "id": "0000006115",
     "locationId": "0000000662"
   },
   {
@@ -1833,7 +1833,7 @@
     "room": "104",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005652",
+    "id": "0000005652",
     "locationId": "0000000532"
   },
   {
@@ -1844,7 +1844,7 @@
     "room": "107",
     "capacity": "",
     "equipment": "",
-    "resourceId": "0000005887",
+    "id": "0000005887",
     "locationId": "0000000532"
   },
   {
@@ -1855,7 +1855,7 @@
     "room": "",
     "capacity": "0",
     "equipment": "빔프로젝터",
-    "resourceId": "0000005920",
+    "id": "0000005920",
     "locationId": "0000000575"
   },
   {
@@ -1866,7 +1866,7 @@
     "room": "",
     "capacity": "0",
     "equipment": "빔프로젝터",
-    "resourceId": "0000005921",
+    "id": "0000005921",
     "locationId": "0000000575"
   },
   {
@@ -1877,7 +1877,7 @@
     "room": "",
     "capacity": "0",
     "equipment": "빔프로젝터",
-    "resourceId": "0000005922",
+    "id": "0000005922",
     "locationId": "0000000575"
   },
   {
@@ -1888,7 +1888,7 @@
     "room": "1113호",
     "capacity": "422",
     "equipment": "",
-    "resourceId": "0000000551",
+    "id": "0000000551",
     "locationId": "0000000421"
   },
   {
@@ -1899,7 +1899,7 @@
     "room": "1111호",
     "capacity": "128",
     "equipment": "",
-    "resourceId": "0000006116",
+    "id": "0000006116",
     "locationId": "0000000663"
   }
 ]
