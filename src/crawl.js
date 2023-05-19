@@ -34,7 +34,7 @@ async function getMaxPageNum() {
     return maxPageNum[1];
 }
 
-async function get_resourceGroup_in_page(page) {
+async function get_location_in_page(page) {
     const formData = new URLSearchParams();
     formData.append("pageIndex", page);
     const content = await axios.post(search_url, formData, {
@@ -52,31 +52,31 @@ async function get_resourceGroup_in_page(page) {
         if (isLibitUrl) {
             await fs.writeFile("./data/tmp/warn_libit.json", titleElem.outerHTML + "\n", { flag: "a" });
         }
-        const groupId = isLibitUrl ? "0000000000" : href.match(/prgrId=(\d+)/)[1];
+        const id = isLibitUrl ? "0000000000" : href.match(/prgrId=(\d+)/)[1];
         const title = titleElem.innerText.trim();
-        const [description, itemDescription, type, manager, date] = item.querySelectorAll("dl > dd").map((dd) => dd.innerText.trim());
+        const [description, resourceDescription, type, manager, date] = item.querySelectorAll("dl > dd").map((dd) => dd.innerText.trim());
         const tag = type.split(",").filter((t) => t !== "");
-        return { title, description, itemDescription, tag, manager, registeredDate: date, groupId };
+        return { title, description, resourceDescription, tag, manager, registeredDate: date, id };
     }));
     return search_JSON;
 }
 
-async function get_all_resourceGroup() {
+async function get_all_location() {
     const maxPageNum = await getMaxPageNum();
     const pageList = Array.from({ length: maxPageNum }, (_, i) => i + 1);
-    const searchResultList = await Promise.all(pageList.map(get_resourceGroup_in_page));
+    const searchResultList = await Promise.all(pageList.map(get_location_in_page));
     const searchResult = [].concat(...searchResultList);
-    return searchResult
+    return searchResult;
 }
 
 
 async function main() {
     await initDir();
 
-    // Update ResourceGroup and save into ./data/resource.json
-    const searchResult = await get_all_resourceGroup();
+    // Update location and save into ./data/location.json
+    const searchResult = await get_all_location();
     const pretty_JSON_string = JSON.stringify(searchResult, null, 2);
-    await fs.writeFile("./data/resourceGroup.json", pretty_JSON_string);
+    await fs.writeFile("./data/location.json", pretty_JSON_string);
 }
 
 main();
