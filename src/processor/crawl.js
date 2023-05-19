@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import { parse } from 'node-html-parser';
 import * as fs from 'node:fs/promises';
 import { reserve_resource_url, search_url } from "./url.js";
+import { get_locations, get_resources } from "./util.js";
 
 dotenv.config();
 
@@ -98,25 +99,21 @@ async function get_resource_in_location(locationId) {
 }
 
 async function get_all_resource() {
-    const location = await fs.readFile("./data/location.json", "utf-8");
-    const location_JSON = JSON.parse(location);
-    const locationIdList = location_JSON.map((item) => item.id);
-    const resourceList = await Promise.all(locationIdList.map(get_resource_in_location));
+    const resourceList = await Promise.all(get_locations().map((item) => get_resource_in_location(item.id)));
     const resource = [].concat(...resourceList);
     return resource;
 }
 
 async function add_resourceId_in_location() {
-    const resources_str = await fs.readFile("./data/resource.json", "utf-8");
-    const resources = JSON.parse(resources_str);
-    const locations_str = await fs.readFile("./data/location.json", "utf-8");
-    const locations = JSON.parse(locations_str);
-    resources.forEach(resource => {
+    const locations = get_locations();
+    get_resources().forEach(resource => {
         const location = locations.find(location => location.id == resource.locationId);
         if (location.resourceIds == undefined) {
             location.resourceIds = [];
         }
-        location.resourceIds.push(resource.id);
+        if (!location.resourceIds.includes(resource.id)) {
+            location.resourceIds.push(resource.id);
+        }
     });
     const pretty_location_JSON = JSON.stringify(locations, null, 2);
     await fs.writeFile("./data/location.json", pretty_location_JSON);
