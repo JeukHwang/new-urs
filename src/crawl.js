@@ -106,6 +106,22 @@ async function get_all_resource() {
     return resource;
 }
 
+async function add_resourceId_in_location() {
+    const resources_str = await fs.readFile("./data/resource.json", "utf-8");
+    const resources = JSON.parse(resources_str);
+    const locations_str = await fs.readFile("./data/location.json", "utf-8");
+    const locations = JSON.parse(locations_str);
+    resources.forEach(resource => {
+        const location = locations.find(location => location.id == resource.locationId);
+        if (location.resourceIds == undefined) {
+            location.resourceIds = [];
+        }
+        location.resourceIds.push(resource.id);
+    });
+    const pretty_location_JSON = JSON.stringify(locations, null, 2);
+    await fs.writeFile("./data/location.json", pretty_location_JSON);
+}
+
 async function main() {
     await initDir();
 
@@ -121,7 +137,8 @@ async function main() {
     await fs.writeFile("./data/resource.json", pretty_resource_JSON);
     console.log(resource.length); // 173
 
-    // get_resource_in_location("0000000501");
+    // Update location with resourceIds and save into ./data/location.json
+    await add_resourceId_in_location();
 }
 
 main();
