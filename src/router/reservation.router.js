@@ -5,7 +5,7 @@ import express from 'express';
 const reservationRouter = express.Router();
 
 // Make a reservation
-reservationRouter.put("/reservation", async (req, res) => {
+reservationRouter.put("/", async (req, res) => {
     // TODO: Implement this function
     const {locationId, resourceId, start_date, end_date, start_time, end_time} = req.body;
     const reserve_status = await reserve_Location(locationId, resourceId, start_date, end_date, start_time, end_time);
@@ -25,7 +25,7 @@ reservationRouter.put("/reservation", async (req, res) => {
 });
 
 // Cancel a reservation
-reservationRouter.delete("/reservation", async (req, res) => {
+reservationRouter.delete("/", async (req, res) => {
     // TODO: Implement this function
     const {reservationId, locationId} = req.body;
     await cancel_Reservation(reservationId, locationId);
@@ -36,12 +36,12 @@ reservationRouter.delete("/reservation", async (req, res) => {
 });
 
 //check reservation status
-reservationRouter.get("/reservation/location", async (req, res) => {
+reservationRouter.get("/location", async (req, res) => {
     //TODO: Implement this function
     const { locationId, searchDate } = req.body;
 
     const reservation_status_JSON = await get_location_status_json(locationId, searchDate);
-
+    console.log(reservation_status_JSON);
     res.json(reservation_status_JSON);
 
 })
