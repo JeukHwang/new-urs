@@ -53,10 +53,20 @@ async function get_location_in_page(page) {
             await fs.writeFile("./data/tmp/warn_libit.json", nameElem.outerHTML + "\n", { flag: "a" });
         }
         const id = isLibitUrl ? "0000000000" : href.match(/prgrId=(\d+)/)[1];
-        const name = nameElem.innerText.trim();
+        const operationalName = nameElem.innerText.trim();
+        let isOperational;
+        if (operationalName.startsWith("[운영중(Operating)]")) {
+            isOperational = true;
+        } else if (operationalName.startsWith("[준비중(Preparing)]")) {
+            isOperational = false;
+        } else {
+            await fs.writeFile("./data/tmp/error_operational.txt", operationalName + "\n");
+            throw "Unknown Operational Status";
+        }
+        const name = operationalName.replace("[운영중(Operating)]", "").replace("[준비중(Preparing)]", "").trim();
         const [description, resourceDescription, type, manager, date] = item.querySelectorAll("dl > dd").map((dd) => dd.innerText.trim());
         const tag = type.split(",").filter((t) => t !== "");
-        return { name, description, resourceDescription, tag, manager, registeredDate: date, id };
+        return { name, description, resourceDescription, tag, manager, registeredDate: date, isOperational, id };
     }));
     return search_JSON;
 }
