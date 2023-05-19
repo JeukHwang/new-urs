@@ -189,9 +189,7 @@
     "title": "[운영중(Operating)] 대운동장(월별추첨)",
     "description": "대운동장 (월별추첨)",
     "resource": "대운동장 1 외 299건",
-    "tag": [
-      ""
-    ],
+    "tag": [],
     "manager": "염홍관 (042-350-4813)",
     "registeredDate": "2013-01-01",
     "prgrId": "0000000516"
@@ -455,9 +453,7 @@
     "title": "[운영중(Operating)] 일반사택",
     "description": "일반사택 예약프로그램 입니다.",
     "resource": "101호 외 2건",
-    "tag": [
-      ""
-    ],
+    "tag": [],
     "manager": "김재욱 (042-350-2073)",
     "registeredDate": "2013-01-01",
     "prgrId": "0000000128"
@@ -488,9 +484,7 @@
     "title": "[운영중(Operating)] 북측운동장(월별추첨)",
     "description": "북측운동장 (월별추첨)",
     "resource": "북측운동장 1 외 299건",
-    "tag": [
-      ""
-    ],
+    "tag": [],
     "manager": "염홍관 (042-350-4813)",
     "registeredDate": "2013-01-01",
     "prgrId": "0000000518"
@@ -615,9 +609,7 @@
     "title": "[준비중(Preparing)] 잔디밭",
     "description": "본원 대장당 잔디밭에 대한 예약 프로그램 입니다.",
     "resource": "잔디밭 섹션 1 외 2건",
-    "tag": [
-      ""
-    ],
+    "tag": [],
     "manager": "진영철 (1464)",
     "registeredDate": "2013-01-01",
     "prgrId": "0000000316"
@@ -743,9 +735,7 @@
     "title": "[운영중(Operating)] 풋살(월별추첨)",
     "description": "풋살(월별추첨)",
     "resource": "풋살장 1 외 499건",
-    "tag": [
-      ""
-    ],
+    "tag": [],
     "manager": "염홍관 (042-350-4813)",
     "registeredDate": "2013-01-01",
     "prgrId": "0000000489"

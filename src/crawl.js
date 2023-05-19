@@ -55,7 +55,8 @@ async function get_resource_in_page(page) {
         const prgrId = isLibitUrl ? "0000000000" : href.match(/prgrId=(\d+)/)[1];
         const title = titleElem.innerText.trim();
         const [description, resource, type, manager, date] = item.querySelectorAll("dl > dd").map((dd) => dd.innerText.trim());
-        return { title, description, resource, tag: type.split(","), manager, registeredDate: date, prgrId };
+        const tag = type.split(",").filter((t) => t !== "");
+        return { title, description, resource, tag, manager, registeredDate: date, prgrId };
     }));
     return search_JSON;
 }
@@ -71,4 +72,3 @@ async function main() {
 }
 
 main();
-// getMaxPage();
