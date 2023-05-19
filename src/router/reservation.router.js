@@ -1,15 +1,36 @@
+import cancel_Reservation from "../processor/cancelReservation";
 import get_location_status_json from "../processor/getLocationStatus";
+import reserve_Location from "../processor/reserveLocation";
 export const reservationRouter = express.Router();
 
 // Make a reservation
-reservationRouter.put("/reservation", (req, res) => {
+reservationRouter.put("/reservation", async (req, res) => {
     // TODO: Implement this function
-    return null;
+    const {locationId, resourceId, start_date, end_date, start_time, end_time} = req.body;
+    const reserve_status = await reserve_Location(locationId, resourceId, start_date, end_date, start_time, end_time);
+
+    if(reserve_status) {
+        res.json({
+            "reservation": "success",
+            "reservation_number": reserve_status
+        })
+    } else {
+        res.json({
+            "reservation": "failed",
+            "reservation_number": null
+        })
+
+    }
 });
 
 // Cancel a reservation
-reservationRouter.delete("/reservation", (req, res) => {
+reservationRouter.delete("/reservation", async (req, res) => {
     // TODO: Implement this function
+    const {reservationId, locatioId} = req.body;
+    await cancel_Reservation(reservationId, locatioId);
+    res.json({
+        "cancel": "success"
+    })
     return null;
 });
 
