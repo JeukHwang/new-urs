@@ -90,9 +90,9 @@ async function get_resource_in_location(locationId) {
 
     const root = parse(html);
     const search_JSON = root.querySelectorAll(".table_list > tbody > tr").map((item) => {
-        const resourceId = item.querySelector("td > input").getAttribute("value");
+        const id = item.querySelector("td > input").getAttribute("value");
         const [_, name, location, buildingNumber, floor, room, capacity, equipment] = item.querySelectorAll("td").map((td) => td.innerText.trim());
-        return { name, location, buildingNumber, floor, room, capacity, equipment, resourceId, locationId };
+        return { name, location, buildingNumber, floor, room, capacity, equipment, id, locationId };
     });
     return search_JSON;
 }
