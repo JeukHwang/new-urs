@@ -34,7 +34,7 @@ async function getMaxPageNum() {
     return maxPageNum[1];
 }
 
-async function get_resource_in_page(page) {
+async function get_resourceGroup_in_page(page) {
     const formData = new URLSearchParams();
     formData.append("pageIndex", page);
     const content = await axios.post(search_url, formData, {
@@ -54,21 +54,29 @@ async function get_resource_in_page(page) {
         }
         const prgrId = isLibitUrl ? "0000000000" : href.match(/prgrId=(\d+)/)[1];
         const title = titleElem.innerText.trim();
-        const [description, resource, type, manager, date] = item.querySelectorAll("dl > dd").map((dd) => dd.innerText.trim());
+        const [description, itemDescription, type, manager, date] = item.querySelectorAll("dl > dd").map((dd) => dd.innerText.trim());
         const tag = type.split(",").filter((t) => t !== "");
-        return { title, description, resource, tag, manager, registeredDate: date, prgrId };
+        return { title, description, itemDescription, tag, manager, registeredDate: date, prgrId };
     }));
     return search_JSON;
 }
 
-async function main() {
-    await initDir();
+async function get_all_resourceGroup() {
     const maxPageNum = await getMaxPageNum();
     const pageList = Array.from({ length: maxPageNum }, (_, i) => i + 1);
-    const searchResultList = await Promise.all(pageList.map(get_resource_in_page));
+    const searchResultList = await Promise.all(pageList.map(get_resourceGroup_in_page));
     const searchResult = [].concat(...searchResultList);
+    return searchResult
+}
+
+
+async function main() {
+    await initDir();
+
+    // Update ResourceGroup and save into ./data/resource.json
+    const searchResult = await get_all_resourceGroup();
     const pretty_JSON_string = JSON.stringify(searchResult, null, 2);
-    await fs.writeFile("./data/resource.json", pretty_JSON_string);
+    await fs.writeFile("./data/resourceGroup.json", pretty_JSON_string);
 }
 
 main();
