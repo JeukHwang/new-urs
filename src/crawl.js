@@ -100,15 +100,15 @@ async function main() {
     await initDir();
 
     // Update location and save into ./data/location.json
-    // const searchResult = await get_all_location();
-    // const pretty_JSON_string = JSON.stringify(searchResult, null, 2);
-    // await fs.writeFile("./data/location.json", pretty_JSON_string);
-    // console.log(searchResult.length); // 77
+    const location = await get_all_location();
+    const pretty_location_JSON = JSON.stringify(location, null, 2);
+    await fs.writeFile("./data/location.json", pretty_location_JSON);
+    console.log(location.length); // 77
 
     // Update resource and save into ./data/resource.json
     const resource = await get_all_resource();
-    const pretty_JSON_string = JSON.stringify(resource, null, 2);
-    await fs.writeFile("./data/resource.json", pretty_JSON_string);
+    const pretty_resource_JSON = JSON.stringify(resource, null, 2);
+    await fs.writeFile("./data/resource.json", pretty_resource_JSON);
     console.log(resource.length); // 173
 
     // get_resource_in_location("0000000501");
