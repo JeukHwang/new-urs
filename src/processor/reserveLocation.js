@@ -4,33 +4,36 @@ import { parse } from 'node-html-parser';
 import {reserve_resource_url, resource_reservation_url} from './url.js'
 import FormData from "form-data";
 
-dotenv.config({path: '../../.env'});
+dotenv.config();
 
 const isReservationSuccessful = async (html) => {
-    const reservationSuccess = await html.querySelector("#subWrap > div.sub_rightArea > div.comp").innerText.includes("예약번호로 신청 되었습니다.");
-    if (reservationSuccess) {
-        const reservation_number = await html.querySelector("#subWrap > div.sub_rightArea > div.comp > p:nth-child(2) > span.blue").innerText;
-        return reservation_number; 
+    const reservationSuccess = await html.querySelector("#subWrap > div.sub_rightArea > div.comp");
+
+    if (reservationSuccess == null) {
+        return null; 
     } else {
-        return null;
+        const reservationStatus = await reservationSuccess.innerText.includes("번 예약번호로 신청 되었습니다.");
+        if (reservationStatus) {
+            const reservation_number = await html.querySelector("#subWrap > div.sub_rightArea > div.comp > p:nth-child(2) > span.blue").innerText;
+            return reservation_number; 
+        } else {
+            return null
+        }
     }
 }
 
 
 const reserve_Location  = async (locationId, resourceId, start_date, end_date, start_time, end_time) => {
     const formData = new FormData();
-    formData.append("prgrId", "0000000482");
-    formData.append("rssId", "0000001401");
+    formData.append("prgrId", locationId);
+    formData.append("rssId", resourceId);
     formData.append("prgrAttAgrYn", "Y");
     formData.append("rptRsvtDivCd", "A00201");
-    formData.append("rsvtStDt", "2023-05-23");
-    formData.append("rsvtEdDt", "2023-05-23");
-    formData.append("rsvtStTmHh", "11");
-    formData.append("rsvtEdTmHh", "12");
-
-    console.log(resource_reservation_url)
-    console.log(formData.getHeaders())
-
+    formData.append("rsvtStDt", start_date);
+    formData.append("rsvtEdDt", end_date);
+    formData.append("rsvtStTmHh", start_time);
+    formData.append("rsvtEdTmHh", end_time);
+    console.log(process.env.COOKIE)
 
     const content = await axios.post(resource_reservation_url, formData, {
         headers: {Cookie: process.env.COOKIE}

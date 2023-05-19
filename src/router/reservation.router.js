@@ -2,7 +2,7 @@ import cancel_Reservation from "../processor/cancelReservation.js";
 import get_location_status_json from "../processor/getLocationStatus.js";
 import reserve_Location from "../processor/reserveLocation.js";
 import express from 'express';
-export const reservationRouter = express.Router();
+const reservationRouter = express.Router();
 
 // Make a reservation
 reservationRouter.put("/reservation", async (req, res) => {
@@ -45,3 +45,5 @@ reservationRouter.get("/reservation/location", async (req, res) => {
     res.json(reservation_status_JSON);
 
 })
+
+export default reservationRouter;

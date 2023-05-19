@@ -1,5 +1,5 @@
 import express from "express";
-import { reservationRouter } from "./router/reservation.router.js";
+import reservationRouter from "./router/reservation.router.js";
 import { searchRouter } from "./router/search.router.js";
 
 const app = express();
