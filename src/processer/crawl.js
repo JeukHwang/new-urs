@@ -116,7 +116,9 @@ async function add_resourceId_in_location() {
         if (location.resourceIds == undefined) {
             location.resourceIds = [];
         }
-        location.resourceIds.push(resource.id);
+        if (!location.resourceIds.includes(resource.id)) {
+            location.resourceIds.push(resource.id);
+        }
     });
     const pretty_location_JSON = JSON.stringify(locations, null, 2);
     await fs.writeFile("./data/location.json", pretty_location_JSON);
