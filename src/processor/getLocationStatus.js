@@ -1,6 +1,6 @@
 import axios from "axios";
 import dotenv from "dotenv";
-import { location_reservation_status_url } from "../url.js";
+import { location_reservation_status_url } from "./url.js";
 import FormData from "form-data";
 
 dotenv.config({path: '../../.env'});
@@ -153,3 +153,5 @@ async function parse_reservation_info(reservation_status_JSONs) {
     return reservation_info_json
 
 }
+
+export default get_location_status_json;

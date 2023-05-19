@@ -57,3 +57,6 @@ const reserve_Location  = async (locationId, resourceId, start_date, end_date, s
         return null;
     }
 }
+
+
+export default  reserve_Location

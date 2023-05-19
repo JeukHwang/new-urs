@@ -1,6 +1,7 @@
-import cancel_Reservation from "../processor/cancelReservation";
-import get_location_status_json from "../processor/getLocationStatus";
-import reserve_Location from "../processor/reserveLocation";
+import cancel_Reservation from "../processor/cancelReservation.js";
+import get_location_status_json from "../processor/getLocationStatus.js";
+import reserve_Location from "../processor/reserveLocation.js";
+import express from 'express';
 export const reservationRouter = express.Router();
 
 // Make a reservation
