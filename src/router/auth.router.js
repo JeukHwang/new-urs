@@ -7,6 +7,7 @@ authRouter.get("/", (req, res) => {
     return res.json({ message: "Hello from auth get" });
 });
 authRouter.post("/", (req, res) => {
+    res.header("Access-Control-Allow-Origin", "*")
     console.log("Cookies", req.cookies);
     return res.json({ message: "Hello from auth post" });
 });
