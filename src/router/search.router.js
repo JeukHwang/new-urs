@@ -1,4 +1,6 @@
-import { get_locations, get_resources } from '../processor/util';
+import express from 'express';
+import { get_locations, get_resources } from '../processor/util.js';
+
 export const searchRouter = express.Router();
 
 // Find favorite location by filter
