@@ -1,5 +1,5 @@
-import { get_locations, get_resources } from '../processor/util.js';
 import express from "express";
+import { get_locations, get_resources } from '../processor/util.js';
 export const searchRouter = express.Router();
 
 // Find favorite location by filter
@@ -10,7 +10,7 @@ searchRouter.get("/location/favorite", (req, res) => {
 });
 
 function getTextFromLocation(location) {
-    return [location.name, location.description, location.resourceDescription, location.tags.join(" "), location.manager].join(" ");
+    return [location.name, location.description, location.resourceDescription, ...location.tag, location.manager].join(" ");
 }
 
 function getTextFromResource(resource) {
@@ -21,10 +21,13 @@ function getTextFromResource(resource) {
 searchRouter.get("/location", async (req, res) => {
     const { text, tag, onlyOperational } = req.body;
     const filteredLocation = get_locations().filter((location) => {
-        if (onlyOperational && !item.isOperational) return false;
-        if (tag && !item.tags.includes(tag)) return false;
-        if (text & getTextFromLocation(location).includes(text)) return true;
-        return text & get_resources().some(resource => getTextFromResource(resource).includes(text));
+        if (onlyOperational && !location.isOperational) return false;
+        if (tag && !location.tag.includes(tag)) return false;
+        if (!text) {
+            return true;
+        } else {
+            return getTextFromLocation(location).includes(text) || get_resources().some(resource => getTextFromResource(resource).includes(text));
+        }
     });
 
     res.send(filteredLocation);
@@ -35,6 +38,6 @@ searchRouter.get("/resource", (req, res) => {
     const { locationId } = req.body;
     const location = get_locations().find((item) => item.id == locationId);
     const filteredResources = get_resources().filter((item) => location.resourceIds.includes(item.id));
-    
+
     res.send(filteredResources);
 });
